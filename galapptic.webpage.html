@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galapptic</title>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+:root{
+  --navy:#0a0e1a;
+  --deep:#0f1629;
+  --purple:#3d1f8a;
+  --orange:#ff6b00;
+  --orange-light:#ff9a3c;
+  --text:#dce4ff;
+  --muted:#8a9ac0;
+  --card-bg:rgba(255,255,255,0.05);
+  --card-border:rgba(255,255,255,0.1);
+
+  /* Category colors */
+  --cat-party:#e040fb;
+  --cat-learning:#00bcd4;
+  --cat-puzzle:#7c4dff;
+  --cat-daily:#ff9800;
+  --cat-adventure:#4caf50;
+  --cat-visual:#f06292;
+}
+html{scroll-behavior:smooth;}
+body{font-family:'DM Sans',sans-serif;background:var(--navy);color:var(--text);min-height:100vh;overflow-x:hidden;}
+
+.stars{position:fixed;inset:0;pointer-events:none;z-index:0;}
+.star{position:absolute;border-radius:50%;background:white;animation:twinkle var(--d,3s) ease-in-out infinite alternate;animation-delay:var(--delay,0s);opacity:var(--op,0.5);}
+@keyframes twinkle{from{opacity:var(--op,0.5);}to{opacity:1;}}
+
+.page{position:relative;z-index:1;min-height:100vh;}
+.view{display:none;}
+.view.active{display:block;}
+
+/* ── NAV ── */
+nav{
+  display:flex;align-items:center;justify-content:space-between;
+  padding:1.1rem 3rem;
+  position:sticky;top:0;z-index:200;
+  background:rgba(10,14,26,0.92);
+  backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(255,107,0,0.15);
+}
+.logo-link{display:flex;align-items:center;gap:0.7rem;cursor:pointer;}
+.logo-name{font-family:'Syne',sans-serif;font-weight:800;font-size:1.3rem;color:white;letter-spacing:-0.02em;}
+.logo-name span{color:var(--orange);}
+
+nav ul{list-style:none;display:flex;gap:0.15rem;align-items:center;}
+nav ul li{position:relative;}
+.nav-link{
+  background:none;border:none;cursor:pointer;
+  color:#c8d4ff;
+  font-size:0.92rem;font-weight:600;
+  font-family:'DM Sans',sans-serif;
+  padding:0.5rem 1.1rem;border-radius:0.5rem;
+  transition:color 0.2s,background 0.2s;
+  letter-spacing:0.01em;
+}
+.nav-link:hover{color:white;background:rgba(255,107,0,0.15);}
+.nav-link.active-tab{color:#ffb347;background:rgba(255,107,0,0.12);}
+
+/* Dropdown */
+.dropdown{
+  position:absolute;top:calc(100% + 0.6rem);left:0;
+  background:#0f1629;
+  border:1px solid rgba(255,107,0,0.25);
+  border-radius:0.9rem;padding:0.5rem;
+  min-width:210px;
+  opacity:0;pointer-events:none;
+  transform:translateY(-6px);
+  transition:opacity 0.18s,transform 0.18s;
+  box-shadow:0 8px 32px rgba(0,0,0,0.5);
+}
+.dropdown.open{opacity:1;pointer-events:all;transform:translateY(0);}
+.dropdown-item{
+  display:flex;align-items:center;gap:0.65rem;
+  padding:0.6rem 0.9rem;border-radius:0.5rem;
+  cursor:pointer;font-size:0.875rem;color:var(--text);
+  transition:background 0.15s;
+  background:none;border:none;width:100%;text-align:left;
+  font-family:'DM Sans',sans-serif;font-weight:400;
+}
+.dropdown-item:hover{background:rgba(255,107,0,0.12);}
+.dropdown-emoji{font-size:1rem;width:22px;text-align:center;flex-shrink:0;}
+.dropdown-coming{font-size:0.65rem;color:var(--muted);margin-left:auto;letter-spacing:0.05em;}
+
+/* ── BUTTONS ── */
+.btn-primary{
+  background:linear-gradient(135deg,var(--orange),var(--orange-light));
+  color:white;border:none;padding:0.8rem 1.8rem;border-radius:2rem;
+  font-size:0.92rem;font-weight:500;cursor:pointer;
+  display:inline-flex;align-items:center;gap:0.5rem;
+  transition:transform 0.2s,opacity 0.2s;font-family:'DM Sans',sans-serif;
+}
+.btn-primary:hover{transform:translateY(-2px);opacity:0.9;}
+.btn-primary:disabled{opacity:0.4;cursor:default;transform:none;}
+.btn-ghost{
+  background:transparent;color:var(--text);
+  border:1px solid rgba(255,255,255,0.18);
+  padding:0.8rem 1.8rem;border-radius:2rem;font-size:0.92rem;font-weight:500;cursor:pointer;
+  display:inline-flex;align-items:center;gap:0.5rem;
+  transition:border-color 0.2s,transform 0.2s;font-family:'DM Sans',sans-serif;
+}
+.btn-ghost:hover{border-color:var(--orange);transform:translateY(-2px);}
+.btn-store{
+  display:inline-flex;align-items:center;gap:0.5rem;
+  padding:0.55rem 1.1rem;border-radius:0.6rem;
+  font-size:0.8rem;font-weight:500;
+  border:1px solid rgba(255,255,255,0.15);
+  background:rgba(255,255,255,0.05);
+  color:var(--text);cursor:pointer;font-family:'DM Sans',sans-serif;
+  transition:background 0.2s,border-color 0.2s;
+  opacity:0.45;
+}
+
+/* ── HERO ── */
+.hero{
+  display:grid;grid-template-columns:1fr 1fr;
+  align-items:center;gap:3rem;
+  padding:5.5rem 3rem 4.5rem;
+  max-width:1200px;margin:0 auto;
+}
+.hero-eyebrow{
+  display:inline-flex;align-items:center;gap:0.5rem;
+  font-size:0.78rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;
+  color:var(--orange-light);
+  background:rgba(255,107,0,0.1);border:1px solid rgba(255,107,0,0.25);
+  padding:0.35rem 0.9rem;border-radius:2rem;margin-bottom:1.4rem;
+}
+.eyebrow-dot{width:6px;height:6px;background:var(--orange);border-radius:50%;animation:pulse 2s ease-in-out infinite;}
+@keyframes pulse{0%,100%{opacity:1;transform:scale(1);}50%{opacity:0.4;transform:scale(0.7);}}
+h1{font-family:'Syne',sans-serif;font-size:clamp(2.2rem,3.8vw,3.3rem);font-weight:800;line-height:1.1;letter-spacing:-0.03em;margin-bottom:1.2rem;color:white;}
+.hl{background:linear-gradient(120deg,var(--orange) 0%,var(--orange-light) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;}
+.hero-sub{font-size:1rem;line-height:1.75;color:var(--muted);max-width:440px;margin-bottom:2.5rem;font-weight:300;}
+.hero-actions{display:flex;gap:1rem;flex-wrap:wrap;}
+.hero-visual{display:flex;align-items:center;justify-content:center;}
+.planet-wrapper{animation:float 6s ease-in-out infinite;}
+@keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-16px);}}
+
+/* Stats */
+.stats{display:flex;max-width:1200px;margin:0 auto 4.5rem;padding:0 3rem;}
+.stat-item{flex:1;padding:1.6rem 2rem;border:1px solid rgba(255,107,0,0.12);background:var(--card-bg);text-align:center;}
+.stat-item:first-child{border-radius:1rem 0 0 1rem;}
+.stat-item:last-child{border-radius:0 1rem 1rem 0;}
+.stat-item+.stat-item{border-left:none;}
+.stat-num{font-family:'Syne',sans-serif;font-size:1.9rem;font-weight:800;color:white;display:block;}
+.stat-label{font-size:0.76rem;color:var(--muted);margin-top:0.2rem;letter-spacing:0.05em;text-transform:uppercase;}
+
+/* Section */
+.section{max-width:1200px;margin:0 auto;padding:0 3rem 5.5rem;}
+.section-header{text-align:center;margin-bottom:3rem;}
+.section-tag{font-size:0.73rem;font-weight:500;letter-spacing:0.12em;text-transform:uppercase;color:var(--orange-light);margin-bottom:0.6rem;display:block;}
+h2{font-family:'Syne',sans-serif;font-size:clamp(1.7rem,2.8vw,2.3rem);font-weight:800;color:white;letter-spacing:-0.03em;margin-bottom:0.65rem;}
+.section-sub{color:var(--muted);font-size:0.95rem;font-weight:300;max-width:500px;margin:0 auto;line-height:1.7;}
+
+/* Category pills */
+.cat-pill{display:inline-flex;align-items:center;gap:0.35rem;font-size:0.7rem;font-weight:600;letter-spacing:0.06em;text-transform:uppercase;padding:0.25rem 0.65rem;border-radius:2rem;}
+.cat-party{background:rgba(224,64,251,0.15);color:#e040fb;border:1px solid rgba(224,64,251,0.3);}
+.cat-learning{background:rgba(0,188,212,0.12);color:#00bcd4;border:1px solid rgba(0,188,212,0.25);}
+.cat-puzzle{background:rgba(124,77,255,0.15);color:#a07aff;border:1px solid rgba(124,77,255,0.3);}
+.cat-daily{background:rgba(255,152,0,0.12);color:#ff9800;border:1px solid rgba(255,152,0,0.25);}
+.cat-adventure{background:rgba(76,175,80,0.12);color:#4caf50;border:1px solid rgba(76,175,80,0.25);}
+.cat-visual{background:rgba(240,98,146,0.12);color:#f06292;border:1px solid rgba(240,98,146,0.25);}
+
+/* Apps grid */
+.apps-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;}
+.app-card{
+  background:var(--card-bg);border:1px solid var(--card-border);
+  border-radius:1.2rem;padding:1.6rem;cursor:pointer;
+  transition:transform 0.25s,border-color 0.25s,background 0.25s;
+  position:relative;overflow:hidden;
+  text-align:left;font-family:'DM Sans',sans-serif;color:inherit;
+}
+.app-card:hover{transform:translateY(-5px);border-color:rgba(255,107,0,0.35);background:rgba(255,255,255,0.07);}
+.app-status{position:absolute;top:1.1rem;right:1.1rem;font-size:0.62rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;padding:0.22rem 0.55rem;border-radius:2rem;background:rgba(108,142,255,0.12);color:#a0b4ff;border:1px solid rgba(108,142,255,0.22);}
+.app-icon-wrap{width:52px;height:52px;border-radius:14px;display:flex;align-items:center;justify-content:center;font-size:1.5rem;margin-bottom:1.1rem;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.08);overflow:hidden;}
+.app-icon-wrap img{width:100%;height:100%;object-fit:cover;border-radius:14px;}
+.app-name{font-family:'Syne',sans-serif;font-size:1rem;font-weight:700;color:white;margin-bottom:0.35rem;}
+.app-desc-short{font-size:0.83rem;color:var(--muted);line-height:1.55;font-weight:300;margin-bottom:1rem;}
+.app-cats{display:flex;gap:0.35rem;flex-wrap:wrap;}
+.card-arrow{position:absolute;bottom:1.1rem;right:1.1rem;font-size:0.95rem;color:var(--orange);opacity:0;transition:opacity 0.2s,transform 0.2s;transform:translateX(-4px);}
+.app-card:hover .card-arrow{opacity:1;transform:translateX(0);}
+
+/* Features */
+.features{background:rgba(255,107,0,0.025);border-top:1px solid rgba(255,107,0,0.08);border-bottom:1px solid rgba(255,107,0,0.08);padding:3.5rem 0;margin-bottom:4.5rem;}
+.features-inner{max-width:1200px;margin:0 auto;padding:0 3rem;display:grid;grid-template-columns:repeat(3,1fr);gap:2.5rem;}
+.feature-item{text-align:center;}
+.feature-icon{width:46px;height:46px;background:rgba(255,107,0,0.1);border:1px solid rgba(255,107,0,0.18);border-radius:13px;display:flex;align-items:center;justify-content:center;font-size:1.3rem;margin:0 auto 0.9rem;}
+.feature-title{font-family:'Syne',sans-serif;font-size:0.95rem;font-weight:700;color:white;margin-bottom:0.4rem;}
+.feature-desc{font-size:0.83rem;color:var(--muted);line-height:1.6;font-weight:300;}
+
+/* ── APP DETAIL ── */
+.app-detail-wrap{max-width:960px;margin:0 auto;padding:2.5rem 3rem 4rem;}
+.detail-back{
+  display:inline-flex;align-items:center;gap:0.45rem;
+  color:var(--muted);font-size:0.875rem;cursor:pointer;
+  background:none;border:none;font-family:'DM Sans',sans-serif;
+  margin-bottom:2rem;padding:0.35rem 0;
+  transition:color 0.2s;
+}
+.detail-back:hover{color:var(--orange-light);}
+
+/* Banner */
+.detail-banner{
+  width:100%;border-radius:1rem;overflow:hidden;
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.08);
+  margin-bottom:2rem;min-height:140px;
+  display:flex;align-items:center;justify-content:center;
+  position:relative;
+}
+.detail-banner img{width:100%;height:auto;display:block;}
+.detail-banner-placeholder{color:var(--muted);font-size:0.85rem;font-weight:300;}
+
+.detail-top{display:grid;grid-template-columns:80px 1fr;gap:1.75rem;align-items:flex-start;margin-bottom:2rem;}
+.detail-app-icon{width:80px;height:80px;border-radius:18px;display:flex;align-items:center;justify-content:center;font-size:2.2rem;background:rgba(255,255,255,0.07);border:1px solid rgba(255,255,255,0.1);flex-shrink:0;overflow:hidden;}
+.detail-app-icon img{width:100%;height:100%;object-fit:cover;border-radius:18px;}
+.detail-title{font-family:'Syne',sans-serif;font-size:1.9rem;font-weight:800;color:white;margin-bottom:0.35rem;letter-spacing:-0.025em;}
+.detail-tagline{color:var(--muted);font-size:0.95rem;font-weight:300;line-height:1.6;margin-bottom:0.9rem;}
+.detail-cat-row{display:flex;gap:0.4rem;flex-wrap:wrap;margin-bottom:0.9rem;}
+.detail-store-row{display:flex;gap:0.65rem;flex-wrap:wrap;}
+
+.detail-divider{border:none;border-top:1px solid rgba(255,255,255,0.07);margin:1.75rem 0;}
+.detail-section-label{font-size:0.72rem;font-weight:600;letter-spacing:0.1em;text-transform:uppercase;color:var(--orange-light);margin-bottom:0.75rem;}
+.detail-desc{color:var(--text);line-height:1.8;font-size:0.95rem;font-weight:300;}
+.detail-desc p{margin-bottom:1rem;}
+
+/* Screenshots */
+.screenshots-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0.9rem;}
+.screenshot-slot{
+  background:rgba(255,255,255,0.04);border:1px dashed rgba(255,255,255,0.12);
+  border-radius:0.75rem;aspect-ratio:9/16;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;
+  gap:0.5rem;color:var(--muted);font-size:0.78rem;font-weight:300;text-align:center;padding:1rem;
+}
+.screenshot-slot .ss-icon{font-size:1.5rem;opacity:0.4;}
+
+/* About */
+.about-page{max-width:800px;margin:0 auto;padding:4rem 3rem;}
+.about-page p{color:var(--muted);font-weight:300;line-height:1.8;font-size:1rem;margin-bottom:1.4rem;}
+.about-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:1.1rem;margin-top:2.5rem;}
+.about-card{background:var(--card-bg);border:1px solid rgba(255,107,0,0.13);border-radius:1.1rem;padding:1.6rem;}
+.about-card-icon{font-size:1.6rem;margin-bottom:0.8rem;}
+.about-card-title{font-family:'Syne',sans-serif;font-weight:700;color:white;font-size:0.95rem;margin-bottom:0.4rem;}
+.about-card-desc{font-size:0.83rem;color:var(--muted);line-height:1.6;font-weight:300;}
+
+/* Apps page */
+.apps-page{max-width:1200px;margin:0 auto;padding:3.5rem 3rem;}
+
+/* Category legend */
+.cat-legend{display:flex;gap:1.5rem;flex-wrap:wrap;margin-bottom:2.5rem;}
+.legend-item{display:flex;align-items:center;gap:0.4rem;font-size:0.78rem;color:var(--muted);}
+.legend-dot{width:8px;height:8px;border-radius:50%;}
+
+/* Footer */
+footer{border-top:1px solid rgba(255,107,0,0.1);padding:2rem 3rem;display:flex;align-items:center;justify-content:space-between;max-width:1200px;margin:0 auto;}
+.footer-left{display:flex;align-items:center;gap:0.6rem;}
+.footer-name{font-family:'Syne',sans-serif;font-weight:700;font-size:0.95rem;color:var(--muted);}
+.footer-copy{font-size:0.78rem;color:var(--muted);}
+</style>
+</head>
+<body>
+<div class="stars" id="stars"></div>
+<div class="page">
+
+<!-- NAV -->
+<nav>
+  <div class="logo-link" onclick="showView('home')">
+    <svg width="36" height="36" viewBox="0 0 100 100" fill="none">
+      <!-- Simple flat planet: circle + single ellipse ring line -->
+      <circle cx="50" cy="50" r="30" fill="url(#lpg)"/>
+      <!-- Star sparkle -->
+      <path d="M36 36 L37.2 39.2 L40.5 40.5 L37.2 41.8 L36 45 L34.8 41.8 L31.5 40.5 L34.8 39.2Z" fill="#ffb347" opacity="0.95"/>
+      <!-- Ring back half -->
+      <ellipse cx="50" cy="50" rx="44" ry="12" fill="none" stroke="#cc4400" stroke-width="5" stroke-dasharray="69 69" stroke-dashoffset="0" transform="rotate(-28 50 50)"/>
+      <!-- Planet on top -->
+      <circle cx="50" cy="50" r="30" fill="url(#lpg)"/>
+      <!-- Ring front half -->
+      <ellipse cx="50" cy="50" rx="44" ry="12" fill="none" stroke="#ff6b00" stroke-width="5" stroke-dasharray="69 69" stroke-dashoffset="69" transform="rotate(-28 50 50)"/>
+      <defs>
+        <radialGradient id="lpg" cx="36%" cy="32%">
+          <stop offset="0%" stop-color="#6b35d4"/>
+          <stop offset="100%" stop-color="#1e0a5e"/>
+        </radialGradient>
+      </defs>
+    </svg>
+    <span class="logo-name">Galapp<span>tic</span></span>
+  </div>
+
+  <ul>
+    <li><button class="nav-link" id="tab-home" onclick="showView('home')">Home</button></li>
+    <li>
+      <button class="nav-link" id="tab-apps" onclick="toggleDropdown()">Apps ▾</button>
+      <div class="dropdown" id="apps-dropdown" role="menu">
+        <div id="dropdown-items"></div>
+        <div style="border-top:1px solid rgba(255,255,255,0.07);margin:0.4rem 0.3rem;"></div>
+        <button class="dropdown-item" onclick="showView('apps')">
+          <span class="dropdown-emoji">✦</span> View all apps
+        </button>
+      </div>
+    </li>
+    <li><button class="nav-link" id="tab-about" onclick="showView('about')">About</button></li>
+  </ul>
+</nav>
+
+<!-- HOME -->
+<div class="view active" id="view-home">
+  <section class="hero">
+    <div class="hero-text">
+      <div class="hero-eyebrow"><span class="eyebrow-dot"></span> Apps from the cosmos</div>
+      <h1>Learn. Play.<br><span class="hl">Explore.</span></h1>
+      <p class="hero-sub">Galapptic builds fun, beautifully crafted apps that make learning feel like an adventure. Games, tools, and interactive experiences — all in one place.</p>
+      <div class="hero-actions">
+        <button class="btn-primary" onclick="showView('apps')">See our apps ✦</button>
+        <button class="btn-ghost" onclick="showView('about')">About us</button>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="planet-wrapper">
+        <svg width="320" height="320" viewBox="0 0 200 200" fill="none">
+          <circle cx="100" cy="100" r="80" fill="rgba(61,31,138,0.15)"/>
+          <!-- Ring back -->
+          <ellipse cx="100" cy="100" rx="88" ry="24" fill="none" stroke="#7a2800" stroke-width="8" stroke-dasharray="138 138" stroke-dashoffset="0" transform="rotate(-28 100 100)"/>
+          <!-- Planet -->
+          <circle cx="100" cy="100" r="62" fill="url(#hpg)"/>
+          <circle cx="100" cy="100" r="62" fill="none" stroke="rgba(180,130,255,0.12)" stroke-width="3"/>
+          <!-- Sparkle -->
+          <path d="M68 68 L71 75 L78 78 L71 81 L68 88 L65 81 L58 78 L65 75Z" fill="#ffb347" opacity="0.95"/>
+          <!-- Highlight -->
+          <ellipse cx="78" cy="76" rx="16" ry="9" fill="rgba(255,255,255,0.1)" transform="rotate(-20 78 76)"/>
+          <!-- Shadow -->
+          <circle cx="100" cy="100" r="62" fill="url(#hshadow)"/>
+          <!-- Ring front -->
+          <ellipse cx="100" cy="100" rx="88" ry="24" fill="none" stroke="#ff6b00" stroke-width="8" stroke-dasharray="138 138" stroke-dashoffset="138" transform="rotate(-28 100 100)"/>
+          <defs>
+            <radialGradient id="hpg" cx="36%" cy="30%">
+              <stop offset="0%" stop-color="#7040e0"/>
+              <stop offset="55%" stop-color="#3d1f8a"/>
+              <stop offset="100%" stop-color="#1a0850"/>
+            </radialGradient>
+            <radialGradient id="hshadow" cx="75%" cy="70%">
+              <stop offset="40%" stop-color="transparent"/>
+              <stop offset="100%" stop-color="rgba(5,8,20,0.55)"/>
+            </radialGradient>
+          </defs>
+        </svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats">
+    <div class="stat-item"><span class="stat-num">4+</span><span class="stat-label">Apps in development</span></div>
+    <div class="stat-item"><span class="stat-num">100%</span><span class="stat-label">Free to explore</span></div>
+    <div class="stat-item"><span class="stat-num">∞</span><span class="stat-label">Fun guaranteed</span></div>
+    <div class="stat-item"><span class="stat-num">0</span><span class="stat-label">Boring apps</span></div>
+  </div>
+
+  <section class="section">
+    <div class="section-header">
+      <span class="section-tag">★ Our universe of apps</span>
+      <h2>Pick your adventure</h2>
+      <p class="section-sub">Games, learning tools, and interactive experiences — built to be delightful.</p>
+    </div>
+    <div class="apps-grid" id="home-grid"></div>
+  </section>
+
+  <div class="features">
+    <div class="features-inner">
+      <div class="feature-item"><div class="feature-icon">🚀</div><div class="feature-title">Built for fun first</div><p class="feature-desc">Every app starts with one question: would this make someone smile?</p></div>
+      <div class="feature-item"><div class="feature-icon">✦</div><div class="feature-title">Clean & beautiful</div><p class="feature-desc">Polished interfaces that feel great to use — no clutter, ever.</p></div>
+      <div class="feature-item"><div class="feature-icon">🧩</div><div class="feature-title">Always learning</div><p class="feature-desc">From word games to brain teasers, every app teaches you something new.</p></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-left">
+      <svg width="20" height="20" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="30" fill="#3d1f8a"/><ellipse cx="50" cy="50" rx="44" ry="12" fill="none" stroke="#ff6b00" stroke-width="5" stroke-dasharray="69 69" stroke-dashoffset="69" transform="rotate(-28 50 50)"/></svg>
+      <span class="footer-name">Galapptic</span>
+    </div>
+    <span class="footer-copy">© 2026 Galapptic LLC · Made with ✦ and curiosity</span>
+  </footer>
+</div>
+
+<!-- APPS LIST -->
+<div class="view" id="view-apps">
+  <div class="apps-page">
+    <span class="section-tag" style="display:block;margin-bottom:0.5rem;">★ All apps</span>
+    <h1 style="margin-bottom:0.5rem;">Every app, one place</h1>
+    <p style="color:var(--muted);font-weight:300;font-size:0.95rem;margin-bottom:1.75rem;">Tap any app to learn more. More apps coming soon.</p>
+
+    <!-- Category legend -->
+    <div class="cat-legend" id="cat-legend"></div>
+
+    <div class="apps-grid" id="apps-page-grid"></div>
+  </div>
+  <footer>
+    <div class="footer-left"><svg width="20" height="20" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="30" fill="#3d1f8a"/><ellipse cx="50" cy="50" rx="44" ry="12" fill="none" stroke="#ff6b00" stroke-width="5" stroke-dasharray="69 69" stroke-dashoffset="69" transform="rotate(-28 50 50)"/></svg><span class="footer-name">Galapptic</span></div>
+    <span class="footer-copy">© 2026 Galapptic LLC</span>
+  </footer>
+</div>
+
+<!-- APP DETAIL -->
+<div class="view" id="view-detail">
+  <div class="app-detail-wrap">
+    <button class="detail-back" id="detail-back">← Back</button>
+
+    <!-- Banner -->
+    <div class="detail-banner" id="detail-banner">
+      <span class="detail-banner-placeholder">Banner image — add yours here</span>
+    </div>
+
+    <div class="detail-top">
+      <div class="detail-app-icon" id="detail-icon"></div>
+      <div>
+        <div class="detail-title" id="detail-title"></div>
+        <div class="detail-tagline" id="detail-tagline"></div>
+        <div class="detail-cat-row" id="detail-cats"></div>
+        <div class="detail-store-row">
+          <button class="btn-store" id="detail-ios" disabled>🍎 App Store</button>
+          <button class="btn-store" id="detail-android" disabled>▶ Google Play</button>
+        </div>
+      </div>
+    </div>
+
+    <hr class="detail-divider">
+    <div class="detail-section-label">About this app</div>
+    <div class="detail-desc" id="detail-desc"></div>
+
+    <hr class="detail-divider">
+    <div class="detail-section-label">Screenshots</div>
+    <div class="screenshots-grid">
+      <div class="screenshot-slot"><span class="ss-icon">🖼</span>Screenshot 1</div>
+      <div class="screenshot-slot"><span class="ss-icon">🖼</span>Screenshot 2</div>
+      <div class="screenshot-slot"><span class="ss-icon">🖼</span>Screenshot 3</div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-left"><svg width="20" height="20" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="30" fill="#3d1f8a"/><ellipse cx="50" cy="50" rx="44" ry="12" fill="none" stroke="#ff6b00" stroke-width="5" stroke-dasharray="69 69" stroke-dashoffset="69" transform="rotate(-28 50 50)"/></svg><span class="footer-name">Galapptic</span></div>
+    <span class="footer-copy">© 2026 Galapptic LLC</span>
+  </footer>
+</div>
+
+<!-- ABOUT -->
+<div class="view" id="view-about">
+  <div class="about-page">
+    <span class="section-tag" style="display:block;margin-bottom:0.7rem;">★ Our story</span>
+    <h1 style="margin-bottom:1.25rem;">We make the cosmos <span class="hl">fun</span>.</h1>
+    <p>Galapptic is a small indie studio that loves building apps at the intersection of games and learning. We believe the best way to pick up something new is to play around with it.</p>
+    <p>Every app we ship is crafted with care — obsessed over the details, tuned for delight, and kept completely free to explore. No subscriptions, no dark patterns, just good stuff.</p>
+    <p>We're just getting started. New apps drop regularly, so check back often.</p>
+    <div class="about-grid">
+      <div class="about-card"><div class="about-card-icon">🚀</div><div class="about-card-title">Our mission</div><p class="about-card-desc">Make learning feel like play. Every. Single. Time.</p></div>
+      <div class="about-card"><div class="about-card-icon">🌌</div><div class="about-card-title">Why "Galapptic"?</div><p class="about-card-desc">Because the universe is vast and so is the potential for amazing apps.</p></div>
+      <div class="about-card"><div class="about-card-icon">✦</div><div class="about-card-title">Design philosophy</div><p class="about-card-desc">Clean, beautiful, and fun. Never cluttered, never boring.</p></div>
+      <div class="about-card"><div class="about-card-icon">🧩</div><div class="about-card-title">Always growing</div><p class="about-card-desc">New apps, new ideas, new adventures — always in the works.</p></div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-left"><svg width="20" height="20" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="30" fill="#3d1f8a"/><ellipse cx="50" cy="50" rx="44" ry="12" fill="none" stroke="#ff6b00" stroke-width="5" stroke-dasharray="69 69" stroke-dashoffset="69" transform="rotate(-28 50 50)"/></svg><span class="footer-name">Galapptic</span></div>
+    <span class="footer-copy">© 2026 Galapptic LLC</span>
+  </footer>
+</div>
+
+</div><!-- .page -->
+
+<script>
+// ── APP DATA ──
+// Categories: party, learning, puzzle, daily, adventure, visual
+const CATS = {
+  party:     { label:'Party',    cls:'cat-party',     color:'#e040fb' },
+  learning:  { label:'Learning', cls:'cat-learning',  color:'#00bcd4' },
+  puzzle:    { label:'Puzzle',   cls:'cat-puzzle',    color:'#a07aff' },
+  daily:     { label:'Daily',    cls:'cat-daily',     color:'#ff9800' },
+  adventure: { label:'Adventure',cls:'cat-adventure', color:'#4caf50' },
+  visual:    { label:'Visual',   cls:'cat-visual',    color:'#f06292' },
+};
+
+// Kurious banner image (uploaded by user)
+const KURIOUS_BANNER = '/mnt/user-data/uploads/Kurious_Banner.png';
+const KURIOUS_LOGO   = '/mnt/user-data/uploads/Kurious_Logo.png';
+
+const apps = [
+  {
+    id:'kurious',
+    emoji:'K',
+    logo: KURIOUS_LOGO,
+    banner: KURIOUS_BANNER,
+    name:'Kurious',
+    tagline:'Never stop wondering.',
+    shortDesc:'A curiosity-driven learning experience that makes every question an adventure.',
+    categories:['learning'],
+    iosUrl: null,
+    androidUrl: null,
+    released: false,
+    description:`<p>Kurious is a learning app built around the joy of curiosity. Ask a question, go down a rabbit hole, discover something amazing — and come back for more tomorrow.</p><p>It's designed to make learning feel effortless and addictive, the way a great conversation with a brilliant friend does. Topics span science, history, culture, and beyond.</p><p>Description placeholder — replace with your real copy here.</p>`
+  },
+  {
+    id:'vibe',
+    emoji:'🎉',
+    logo: null,
+    banner: null,
+    name:"What's the Vibe?",
+    tagline:'Read the room. Every time.',
+    shortDesc:'The party game that turns any group into the best night of the year.',
+    categories:['party'],
+    iosUrl: null,
+    androidUrl: null,
+    released: false,
+    description:`<p>What's the Vibe? is the party game for people who are already at the party. No setup, no rulebooks — just laughs, big moments, and good energy.</p><p>Description placeholder — replace with your real copy here.</p>`
+  },
+  {
+    id:'loreweave',
+    emoji:'📖',
+    logo: null,
+    banner: null,
+    name:'LoreWeave',
+    tagline:'Build worlds. Tell stories.',
+    shortDesc:'A collaborative worldbuilding and storytelling adventure game.',
+    categories:['adventure','puzzle'],
+    iosUrl: null,
+    androidUrl: null,
+    released: false,
+    description:`<p>LoreWeave is a collaborative storytelling experience where you and your friends build a world together — then play in it. Every choice shapes the lore.</p><p>Description placeholder — replace with your real copy here.</p>`
+  },
+  {
+    id:'colorgrid',
+    emoji:'🎨',
+    logo: null,
+    banner: null,
+    name:'Color Grid',
+    tagline:'See color differently.',
+    shortDesc:'A visual puzzle game all about color, pattern, and perception.',
+    categories:['puzzle','visual'],
+    iosUrl: null,
+    androidUrl: null,
+    released: false,
+    description:`<p>Color Grid is a puzzle game that challenges how you see color. Fill grids, match hues, and discover how subtle the difference between shades can be.</p><p>Description placeholder — replace with your real copy here.</p>`
+  },
+  // ── ADD MORE APPS HERE ──
+  // {
+  //   id:'your-app-id',
+  //   emoji:'🔭',
+  //   logo: null,
+  //   banner: null,
+  //   name:'App Name',
+  //   tagline:'Short tagline.',
+  //   shortDesc:'One sentence description.',
+  //   categories:['learning'],
+  //   iosUrl: null,
+  //   androidUrl: null,
+  //   released: false,
+  //   description:`<p>Full description here.</p>`
+  // },
+];
+
+// ── RENDER HELPERS ──
+function catPills(cats) {
+  return cats.map(c => {
+    const cat = CATS[c];
+    return cat ? `<span class="cat-pill ${cat.cls}">${cat.label}</span>` : '';
+  }).join('');
+}
+
+function iconHtml(app, size='card') {
+  const isDetail = size === 'detail';
+  const px = isDetail ? 80 : 52;
+  const r = isDetail ? 18 : 14;
+  if (app.logo) {
+    return `<img src="${app.logo}" style="width:${px}px;height:${px}px;border-radius:${r}px;object-fit:cover;">`;
+  }
+  // Fallback emoji
+  return `<span style="font-size:${isDetail?2.2:1.5}rem">${app.emoji}</span>`;
+}
+
+function renderGrid(containerId) {
+  const el = document.getElementById(containerId);
+  el.innerHTML = apps.map((a,i) => `
+    <div class="app-card" onclick="showApp(${i})">
+      <span class="app-status">Coming soon</span>
+      <div class="app-icon-wrap">${iconHtml(a)}</div>
+      <div class="app-name">${a.name}</div>
+      <div class="app-desc-short">${a.shortDesc}</div>
+      <div class="app-cats">${catPills(a.categories)}</div>
+      <span class="card-arrow">→</span>
+    </div>
+  `).join('');
+}
+
+function renderDropdown() {
+  document.getElementById('dropdown-items').innerHTML = apps.map((a,i) => `
+    <button class="dropdown-item" onclick="showApp(${i})">
+      <span class="dropdown-emoji" style="font-size:0.9rem">${a.logo ? `<img src="${a.logo}" style="width:18px;height:18px;border-radius:4px;object-fit:cover;vertical-align:middle;">` : a.emoji}</span>
+      ${a.name}
+      <span class="dropdown-coming">Soon</span>
+    </button>
+  `).join('');
+}
+
+function renderCatLegend() {
+  const used = new Set(apps.flatMap(a => a.categories));
+  document.getElementById('cat-legend').innerHTML = [...used].map(c => {
+    const cat = CATS[c];
+    return cat ? `<div class="legend-item"><div class="legend-dot" style="background:${cat.color}"></div>${cat.label}</div>` : '';
+  }).join('');
+}
+
+// ── NAVIGATION ──
+let prevView = 'home';
+let ddOpen = false;
+
+function setActiveTab(id) {
+  document.querySelectorAll('.nav-link').forEach(b => b.classList.remove('active-tab'));
+  const tabMap = {home:'tab-home', apps:'tab-apps', 'apps-page':'tab-apps', detail:'tab-apps', about:'tab-about'};
+  const tab = document.getElementById(tabMap[id] || 'tab-home');
+  if (tab) tab.classList.add('active-tab');
+}
+
+function showView(id) {
+  document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+  document.getElementById('view-' + id).classList.add('active');
+  window.scrollTo(0,0);
+  closeDropdown();
+  if (id !== 'detail') prevView = id;
+  setActiveTab(id);
+}
+
+function showApp(i) {
+  const a = apps[i];
+
+  // Banner
+  const bannerEl = document.getElementById('detail-banner');
+  if (a.banner) {
+    bannerEl.innerHTML = `<img src="${a.banner}" alt="${a.name} banner" onerror="this.parentElement.innerHTML='<span class=\\'detail-banner-placeholder\\'>Banner coming soon</span>'">`;
+  } else {
+    bannerEl.innerHTML = `<span class="detail-banner-placeholder">Banner image — add yours here</span>`;
+  }
+
+  // Icon
+  document.getElementById('detail-icon').innerHTML = iconHtml(a, 'detail');
+
+  document.getElementById('detail-title').textContent = a.name;
+  document.getElementById('detail-tagline').textContent = a.tagline;
+  document.getElementById('detail-cats').innerHTML = catPills(a.categories);
+  document.getElementById('detail-desc').innerHTML = a.description;
+
+  // Store buttons
+  const iosBtn = document.getElementById('detail-ios');
+  const andBtn = document.getElementById('detail-android');
+  iosBtn.disabled = !a.iosUrl;
+  andBtn.disabled = !a.androidUrl;
+  iosBtn.style.opacity = a.iosUrl ? '1' : '0.4';
+  andBtn.style.opacity = a.androidUrl ? '1' : '0.4';
+  iosBtn.onclick = a.iosUrl ? () => window.open(a.iosUrl,'_blank') : null;
+  andBtn.onclick = a.androidUrl ? () => window.open(a.androidUrl,'_blank') : null;
+
+  document.getElementById('detail-back').onclick = () => showView(prevView || 'apps');
+  showView('detail');
+}
+
+function toggleDropdown() {
+  ddOpen = !ddOpen;
+  document.getElementById('apps-dropdown').classList.toggle('open', ddOpen);
+}
+function closeDropdown() {
+  ddOpen = false;
+  document.getElementById('apps-dropdown').classList.remove('open');
+}
+document.addEventListener('click', e => {
+  if (!e.target.closest('#tab-apps') && !e.target.closest('#apps-dropdown')) closeDropdown();
+});
+
+// ── INIT ──
+renderGrid('home-grid');
+renderGrid('apps-page-grid');
+renderDropdown();
+renderCatLegend();
+setActiveTab('home');
+
+// Stars
+const starsEl = document.getElementById('stars');
+for (let i = 0; i < 120; i++) {
+  const s = document.createElement('div');
+  s.className = 'star';
+  const sz = Math.random()*2+0.4;
+  s.style.cssText = `width:${sz}px;height:${sz}px;left:${Math.random()*100}%;top:${Math.random()*100}%;--d:${(Math.random()*3+2).toFixed(1)}s;--delay:${(Math.random()*4).toFixed(1)}s;--op:${(Math.random()*0.45+0.2).toFixed(2)};`;
+  starsEl.appendChild(s);
+}
+</script>
+</body>
+</html>
