@@ -56,13 +56,13 @@ img{display:block;}
 .star{position:absolute;border-radius:50%;background:#fff;animation:twinkle var(--d,3s) ease-in-out infinite alternate;animation-delay:var(--delay,0s);opacity:var(--op,.15);}
 @keyframes twinkle{from{opacity:var(--op,.15);}to{opacity:calc(var(--op)*3);}  }
 
-.page{position:relative;z-index:1;}
+.page{position:relative;}
 .view{display:none;}.view.active{display:block;}
 .wrap{max-width:1160px;margin:0 auto;padding:0 2rem;}
 
 /* ── NAV ── */
 nav{
-  position:fixed;top:0;left:0;right:0;z-index:9999;
+  position:fixed;top:0;left:0;right:0;z-index:99999;
   background:rgba(8,12,20,0.97);
   backdrop-filter:blur(20px);
   border-bottom:1px solid var(--border);
@@ -531,7 +531,7 @@ const APPS=[
    screenshots:I.vibe_ss,
    desc:"<p>A pass-and-play party game for groups of 2 to 15. One player is the Guesser and everyone else sees a secret number between 1 and 10. The Guesser gives each person a category and tries to figure out the number from their answers.</p><p>300+ curated categories, two game modes, and a fully custom visual identity. Built for game nights, road trips, and anywhere you want a good laugh.</p>",
    hi:[{t:"300+ categories",b:"Curated prompts that actually get funny answers."},{t:"2-15 players",b:"Scales from a date night to a full house party."},{t:"Two modes",b:"Player Mode with rotating guessers, Team Mode with leaderboards."},{t:"Custom design",b:"Fully designed dark-themed UI built from scratch."}]},
-  {id:"livewire",img:I.lw,banner:null,name:"Live Wire",tagline:"Rotate tiles. Complete the circuit.",status:"review",cats:["puzzle","gaming"],ios:null,android:null,social:null,
+  {id:"livewire",img:I.lw,banner:null,name:"Live Wire",tagline:"Rotate tiles. Complete the circuit.",status:"released",cats:["puzzle","gaming"],ios:"https://apps.apple.com/us/app/live-wire/id6769654727",android:null,social:null,
    screenshots:[I.lw_ss1,I.lw_ss2,I.lw_ss3,I.lw_ss4,I.lw_ss5],
    desc:"<p>A minimalist electrical puzzle game where you rotate wire tiles to connect a power source to its destination. 442 handcrafted levels across five difficulty tiers, from Easy to Impossible.</p><p>No timers, no ads, no pressure. Every single level is procedurally generated and mathematically verified solvable before it ships.</p>",
    hi:[{t:"442 levels",b:"All procedurally generated and verified to be solvable."},{t:"5 difficulty tiers",b:"From Easy to Impossible, with a harder circuit always waiting."},{t:"Zero pressure",b:"No timers, no ads, no energy systems."},{t:"4 configurations",b:"Four different layouts so no two puzzles feel the same."}]},
