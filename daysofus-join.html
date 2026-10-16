@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Our counter · Days of Us</title>
+<meta name="description" content="How long they've been together, counted on Days of Us.">
+<meta property="og:title" content="Our counter on Days of Us">
+<meta property="og:description" content="Tap to see how long we've been together, down to the second.">
+<meta property="og:image" content="https://galapptic.com/shots/daysofus-og.jpg">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#4A0D1B">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Fraunces:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#4A0D1B; --text:#F7EADB; --sub:#D9B8B3; --tile:#F7EADB; --low:#EBD7C4; --ink:#3A0A15; --seam:#2A050E; --accent:#F59AAE; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; min-height: 100%; background: var(--bg); color: var(--text); font-family: -apple-system, 'Segoe UI', Roboto, sans-serif; }
+  main { min-height: 100vh; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 18px; padding: 40px 22px calc(40px + env(safe-area-inset-bottom)); text-align: center; }
+  .kicker { font-family: Fraunces, Georgia, serif; font-style: italic; font-weight: 400; color: var(--sub); font-size: 18px; }
+  .names { font-family: Fraunces, Georgia, serif; font-weight: 600; font-size: clamp(30px, 8vw, 46px); line-height: 1.15; overflow-wrap: anywhere; }
+  .names i { font-weight: 400; }
+  .board { display: flex; gap: 14px; justify-content: center; margin: 10px 0 2px; }
+  .group { display: flex; gap: 6px; }
+  .tile { position: relative; width: calc(var(--h) * 0.66); height: var(--h); border-radius: calc(var(--h) * 0.1); overflow: hidden;
+          background: linear-gradient(var(--tile) 50%, var(--low) 50%); display: flex; align-items: center; justify-content: center;
+          font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif; font-weight: 700; font-size: calc(var(--h) * 0.8); line-height: 1; color: var(--ink); }
+  .tile::after { content: ''; position: absolute; left: 0; right: 0; top: calc(50% - 1px); height: 2px; background: var(--seam); opacity: .85; }
+  .label { font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif; font-weight: 600; letter-spacing: 3px; font-size: 21px; }
+  .breakdown { color: var(--sub); font-size: 16px; }
+  .clock { font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif; font-weight: 700; font-size: 26px; letter-spacing: 1px; color: var(--sub); }
+  .btns { display: flex; flex-direction: column; gap: 10px; width: 100%; max-width: 380px; margin-top: 18px; }
+  .btn { display: block; padding: 17px 20px; border-radius: 18px; font-weight: 600; font-size: 17px; text-decoration: none; }
+  .primary { background: var(--tile); color: var(--ink); }
+  .secondary { background: color-mix(in srgb, var(--text) 12%, transparent); color: var(--text); }
+  .fine { color: var(--sub); font-size: 13px; max-width: 340px; line-height: 1.45; margin-top: 8px; }
+  .brand { display: flex; align-items: center; gap: 8px; color: var(--sub); font-family: Fraunces, Georgia, serif; font-style: italic; font-size: 14px; margin-top: 10px; }
+  .brand img { width: 26px; height: 26px; border-radius: 7px; }
+</style>
+</head><body>
+<main>
+  <div class="kicker" id="kicker">together for</div>
+  <div class="names" id="names">Days of Us</div>
+  <div class="board" id="board" aria-live="polite"></div>
+  <div class="label" id="label">EVERY DAY OF YOU TWO, COUNTED</div>
+  <div class="breakdown" id="breakdown"></div>
+  <div class="clock" id="clock"></div>
+  <div class="btns">
+    <a class="btn primary" id="open" href="https://galapptic.com/app-daysofus.html">Open in Days of Us</a>
+    <a class="btn secondary" id="get" href="https://galapptic.com/app-daysofus.html">Get Days of Us, free</a>
+  </div>
+  <p class="fine" id="fine">A counter for you two: widgets, a heads-up before every special day, and cards worth sharing.</p>
+  <a class="brand" href="https://galapptic.com/app-daysofus.html"><img src="data:image/jpeg;base64,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" alt="">Days of Us · by Galapptic</a>
+</main>
+<script>
+(function () {
+  var THEMES = {"cherry":["#4A0D1B","#F7EADB","#D9B8B3","#F7EADB","#EBD7C4","#3A0A15","#2A050E","#F59AAE"],"midnight":["#101A2E","#F3E9D2","#A9B3C7","#F5CD6E","#E8BC57","#1B1405","#0A101D","#F5CD6E"],"blush":["#F7DCDD","#5B1A2B","#8E5361","#FFFFFF","#F6EEEE","#A3233F","#E2AEB4","#C2185B"],"board":["#1B1A19","#F2EEE6","#A8A39A","#2E2B28","#262321","#F4EFE6","#0E0D0C","#F2B134"],"ivory":["#F6F1E8","#2A2420","#7A6F63","#2A2420","#221D1A","#F6F1E8","#F6F1E8","#C0392B"],"matcha":["#DCE5CF","#24391F","#5B6E52","#FBFAF4","#EFEEE5","#2F4A2A","#B5C4A0","#4E7A3D"],"lilac":["#E5DCF3","#35215C","#6E5D8F","#FFFFFF","#F3EFFA","#4B2F7A","#C3B3DE","#7A4FC0"],"ocean":["#0D3540","#E6F3EF","#9CC2BD","#E6F3EF","#D3E6E1","#0D3540","#072027","#7FD6C2"],"apricot":["#F9D9BF","#5A2410","#8E5A40","#FFF7EE","#F8EADB","#B4431D","#E8AE84","#D9531E"],"noir":["#0E0E0F","#F5F5F5","#A0A0A6","#1F1F22","#18181A","#FFFFFF","#000000","#FF3B5C"]};
+  var KEYS = ['--bg', '--text', '--sub', '--tile', '--low', '--ink', '--seam', '--accent'];
+  var p = {};
+  location.hash.replace(/^#/, '').split('&').forEach(function (kv) {
+    var i = kv.indexOf('='); if (i <= 0) return;
+    try { p[kv.slice(0, i)] = decodeURIComponent(kv.slice(i + 1).replace(/\+/g, ' ')); } catch (e) {}
+  });
+  var m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(p.d || '');
+  if (!m) return;   // a plain visit: the page stays a small ad for the app
+  var start = new Date(+m[1], +m[2] - 1, +m[3]);
+  if (start.getMonth() !== +m[2] - 1) return;
+  var t = THEMES[p.t] || THEMES.cherry;
+  KEYS.forEach(function (k, i) { document.documentElement.style.setProperty(k, t[i]); });
+  document.querySelector('meta[name=theme-color]').setAttribute('content', t[0]);
+  var a = (p.a || '').slice(0, 40), b = (p.b || '').slice(0, 40);
+  var names = document.getElementById('names');
+  names.textContent = '';
+  names.appendChild(document.createTextNode(a || 'You'));
+  if (b) { var amp = document.createElement('i'); amp.textContent = ' & '; names.appendChild(amp); names.appendChild(document.createTextNode(b)); }
+  var word = p.r === 'married' ? 'married' : p.r === 'friends' ? 'of friendship' : 'together';
+  var first = p.f === '1' ? 1 : 0;
+  var hm = /^(\d{1,2}):(\d{2})$/.exec(p.h || '');
+  var t0 = new Date(start); if (hm) t0.setHours(+hm[1], +hm[2], 0, 0);
+  document.getElementById('open').href = 'daysofus://join?' + location.hash.slice(1);
+  document.getElementById('fine').textContent = 'Opening the link in Days of Us sets up this counter with your name first. The names and date live in this link only; nothing is stored anywhere.';
+  function addMonths(d, n) { var y = d.getFullYear(), mo = d.getMonth() + n, day = d.getDate(); var last = new Date(y, mo + 1, 0).getDate(); return new Date(y, mo, Math.min(day, last)); }
+  function render() {
+    var now = new Date();
+    var today = new Date(now.getFullYear(), now.getMonth(), now.getDate());
+    var raw = Math.round((today - start) / 86400000);
+    var future = raw < 0;
+    var days = future ? -raw : raw + first;
+    document.getElementById('kicker').textContent = future ? 'counting down to' : (word === 'married' ? 'married for' : word === 'of friendship' ? 'friends for' : 'together for');
+    var s = String(days), groups = [];
+    for (var i = s.length; i > 0; i -= 3) groups.unshift(s.slice(Math.max(0, i - 3), i));
+    var h = Math.min(96, Math.floor((Math.min(window.innerWidth, 520) - 40) / (s.length * 0.72 + (groups.length - 1) * 0.2)));
+    var board = document.getElementById('board');
+    board.style.setProperty('--h', h + 'px');
+    board.innerHTML = groups.map(function (g) { return '<div class="group">' + g.split('').map(function (c) { return '<div class="tile">' + c + '</div>'; }).join('') + '</div>'; }).join('');
+    board.setAttribute('aria-label', days + ' days');
+    document.getElementById('label').textContent = (future ? (days === 1 ? 'DAY TO GO' : 'DAYS TO GO') : (days === 1 ? 'DAY ' : 'DAYS ') + word.toUpperCase());
+    if (!future) {
+      var months = (today.getFullYear() - start.getFullYear()) * 12 + today.getMonth() - start.getMonth();
+      while (months > 0 && addMonths(start, months) > today) months--;
+      var rest = Math.round((today - addMonths(start, months)) / 86400000);
+      var parts = [];
+      if (months >= 12) parts.push(Math.floor(months / 12) + (Math.floor(months / 12) === 1 ? ' year' : ' years'));
+      if (months % 12) parts.push(months % 12 + (months % 12 === 1 ? ' month' : ' months'));
+      if (rest || !parts.length) parts.push(rest + (rest === 1 ? ' day' : ' days'));
+      document.getElementById('breakdown').textContent = parts.join(', ');
+      var ms = Math.max(0, now - t0) % 86400000;
+      var pad = function (n) { return (n < 10 ? '0' : '') + n; };
+      document.getElementById('clock').textContent = 'and ' + pad(Math.floor(ms / 3600000)) + ':' + pad(Math.floor(ms % 3600000 / 60000)) + ':' + pad(Math.floor(ms % 60000 / 1000));
+    }
+  }
+  render();
+  setInterval(render, 1000);
+})();
+</script>
+</body></html>
