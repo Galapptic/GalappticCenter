@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Page not found · Galapptic</title>
+<link rel="icon" type="image/png" href="/kurious/assets/kurious-icon-180.png">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;800&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+:root{--bg:#080c14;--line:rgba(122,138,160,.2);--t1:#f0f4ff;--t2:#b4c2d8;--t3:#7a8aa0;--green:#188C67;--blue:#0074fd}
+body{background:var(--bg);color:var(--t1);font-family:Montserrat,system-ui,sans-serif;min-height:100vh;display:flex;
+align-items:center;justify-content:center;padding:32px 16px;text-align:center;line-height:1.6}
+main{max-width:460px}
+img{width:72px;height:72px;border-radius:16px;margin-bottom:18px}
+h1{font-size:1.6rem;font-weight:800;margin-bottom:10px;letter-spacing:-.02em}
+p{color:var(--t2);margin-bottom:22px}
+.btn{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-weight:800;border-radius:999px;padding:12px 22px;margin:4px}
+.btn.green{background:var(--green)}
+.link{display:block;color:var(--t3);margin-top:16px;font-size:.9rem}
+#kurious{display:none}
+body.facts #kurious{display:block}
+body.facts #site{display:none}
+</style>
+</head>
+<body>
+<main id="site">
+  <h1>Page not found</h1>
+  <p>That page isn&rsquo;t here. It may have moved.</p>
+  <a class="btn" href="/">Go to Galapptic</a>
+</main>
+<main id="kurious">
+  <img src="/kurious/assets/kurious-icon-180.png" alt="Kurious">
+  <h1>This fact isn&rsquo;t on the web yet</h1>
+  <p>Its page goes up shortly after its day starts. The whole story is already in Kurious: seven new facts every day.</p>
+  <a class="btn green" id="store" href="https://apps.apple.com/app/apple-store/id6766752682?pt=128866802&ct=web&mt=8">Get Kurious, free</a>
+  <a class="link" href="/kurious/facts/">See every fact so far</a>
+</main>
+<script>
+// Fact links end in the first 8 characters of the topic id (tools/kurious_facts.py). One whose words differ from
+// the page's (an edited headline, or the app's link built slightly differently) is sent to the right page by that id.
+(function () {
+  var m = location.pathname.match(/^\/kurious\/facts\/(?:.*-)?([0-9a-f]{8})(?:\.html)?\/?$/i);
+  if (!/^\/kurious\/facts\//.test(location.pathname)) return;
+  document.body.classList.add('facts');
+  var q = new URLSearchParams(location.search);
+  var ct = q.has('challenge') ? 'challenge' : ((q.get('ref') || '').toLowerCase().replace(/[^a-z0-9_]/g, '').slice(0, 30) || 'web');
+  document.getElementById('store').href = 'https://apps.apple.com/app/apple-store/id6766752682?pt=128866802&ct=' + ct + '&mt=8';
+  if (!m) return;
+  fetch('/kurious/facts/index.json', { cache: 'no-cache' })
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      var id = m[1].toLowerCase();
+      var hit = (data.facts || []).filter(function (f) { return f.id.slice(0, 8).toLowerCase() === id; })[0];
+      if (!hit) return;
+      var target = '/kurious/facts/' + hit.slug;
+      if (target !== location.pathname.replace(/\.html$|\/$/, '')) location.replace(target + location.search);
+    })
+    .catch(function () {});
+})();
+</script>
+</body>
+</html>

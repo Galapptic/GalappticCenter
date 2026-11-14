@@ -1,0 +1,42 @@
+# Kurious fact pages (galapptic.com/kurious/facts/): adds each day's facts shortly after midnight Central, and turns
+# yesterday's pages from "today" pages into pages with the article's opening. See tools/kurious_facts.py.
+name: Kurious fact pages
+
+on:
+  schedule:
+    - cron: '20 5 * * *'   # 00:20 Central in summer (CDT); 23:20 the day before in winter (then it changes nothing)
+    - cron: '20 6 * * *'   # 00:20 Central in winter (CST); 01:20 in summer
+  workflow_dispatch:
+    inputs:
+      rebuild_all:
+        description: 'Rewrite every page (after changing the page design)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kurious-facts
+  cancel-in-progress: false
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Write the pages
+        run: python tools/kurious_facts.py ${{ inputs.rebuild_all && '--rebuild-all' || '' }}
+      - name: Commit and push them
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898299+github-actions[bot]@users.noreply.github.com'
+          git add kurious
+          if git diff --cached --quiet; then echo 'No changes'; exit 0; fi
+          git commit -m "Kurious fact pages for $(TZ=America/Chicago date +%F)"
+          git pull --rebase origin main
+          git push origin HEAD:main
