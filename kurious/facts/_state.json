@@ -1045,9 +1045,181 @@
 "21a6b977-9178-4044-a983-26167c27a329",
 "57f8316f-0935-4502-a004-9950e38e5780",
 "7ced6f1b-346e-467d-a161-95bb19695f82"
+],
+"2026-11-15": [
+"d4c5a14b-792f-4ef6-9508-9b8b400610d1",
+"b05f62f0-01a9-4d64-bfef-959b4d4b9876",
+"d702c643-8c70-43b6-b998-9d16dddf6d0b",
+"8371be13-41f0-4ee9-9d26-b3794c2ffaee",
+"f8dd614c-0981-4a56-89f3-721e7de5a17f",
+"d851f0db-5f62-447e-8a38-6176560b9fad",
+"5d0b795d-8184-4ac3-b63c-6a7ebf5927f4"
 ]
 },
 "facts": [
+{
+"id": "d4c5a14b-792f-4ef6-9508-9b8b400610d1",
+"slug": "the-ancient-art-where-hands-become-gods-and-monsters-d4c5a14b",
+"date": "2026-11-15",
+"category": "artsculture",
+"label": "Arts & Culture",
+"headline": "The Ancient Art Where Hands Become Gods and Monsters",
+"hook": "For over two thousand years, puppeteers have used nothing but leather, sticks, and a single flame to create cinema before cinema existed.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Ki_Sigit_Ariyanto_Dalang_Wayang_Kulit.jpg/960px-Ki_Sigit_Ariyanto_Dalang_Wayang_Kulit.jpg",
+"caption": null,
+"credit": "PL 05 SIGIT, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Ki_Sigit_Ariyanto_Dalang_Wayang_Kulit.jpg",
+"opening": [
+"In a darkened room in Java, a single oil lamp flickers behind a white cotton screen. On the other side, an audience of hundreds watches as armies clash, demons roar, and gods descend from heaven. The puppeteer—called a dalang—sits cross-legged, manipulating up to a hundred leather figures through an eight-hour performance, voicing every character, cueing the gamelan orchestra, and never once letting the audience see his hands. This is wayang kulit, Indonesian shadow puppetry, and it represents just one branch of an art form that spans continents and millennia."
+],
+"rest": [
+"Born in the Shadows of Ancient Asia",
+"The Physics of Moving Light",
+"The Dalang: Part Actor, Part Priest",
+"The Puppets Themselves",
+"When UNESCO Came Calling",
+"Shadow Puppetry Goes Global"
+]
+},
+{
+"id": "b05f62f0-01a9-4d64-bfef-959b4d4b9876",
+"slug": "coca-cola-stayed-secret-by-avoiding-the-patent-office-b05f62f0",
+"date": "2026-11-15",
+"category": "business",
+"label": "Business & Brands",
+"headline": "Coca-Cola Stayed Secret by Avoiding the Patent Office",
+"hook": "Patents force you to publish your formula—so Coca-Cola simply never filed one.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/27/Coca_Cola_Flasche_-_Original_Taste.jpg/960px-Coca_Cola_Flasche_-_Original_Taste.jpg",
+"caption": null,
+"credit": "DYVER, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Coca_Cola_Flasche_-_Original_Taste.jpg",
+"opening": [
+"A patent gives you 20 years of legal protection. After that, your invention belongs to the world. For most companies, it's a reasonable trade. But when your product is a single, endlessly reproducible liquid, those 20 years would be a death sentence. Coca-Cola did the math in 1886 and made a different choice."
+],
+"rest": [
+"The trade secret gamble",
+"Why reverse engineering fails"
+]
+},
+{
+"id": "d702c643-8c70-43b6-b998-9d16dddf6d0b",
+"slug": "the-viking-board-game-where-the-king-wins-by-running-away-d702c643",
+"date": "2026-11-15",
+"category": "games",
+"label": "Games & Puzzles",
+"headline": "The Viking Board Game Where the King Wins by Running Away",
+"hook": "While chess players fought to capture the enemy king, Scandinavian warriors were already playing a game where the defender's only goal was escape.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/ZHNEFA.jpg/960px-ZHNEFA.jpg",
+"caption": null,
+"credit": "Andreas Zautner, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:ZHNEFA.jpg",
+"opening": [
+"Before chess swept through medieval Europe, Vikings and their neighbors were obsessed with a different kind of strategy game. Tafl games—pronounced roughly like \"taffel\"—spread across Scandinavia, Britain, and Iceland from at least 400 CE. The rules were radically asymmetrical: one side had a king and his small band of defenders, the other commanded a larger attacking army. The twist? The king didn't need to fight. He needed to flee."
+],
+"rest": [
+"A game of unequal sides",
+"The end of an era"
+]
+},
+{
+"id": "8371be13-41f0-4ee9-9d26-b3794c2ffaee",
+"slug": "the-mathematician-who-built-numbers-from-scratch-8371be13",
+"date": "2026-11-15",
+"category": "mathematics",
+"label": "Mathematics",
+"headline": "The Mathematician Who Built Numbers From Scratch",
+"hook": "In 1872, Richard Dedekind proved that irrational numbers actually exist by cutting the number line with an imaginary knife.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Richard_Dedekind_1900s.jpg/960px-Richard_Dedekind_1900s.jpg",
+"caption": null,
+"credit": "Unknown (Mondadori Publishers), Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Richard_Dedekind_1900s.jpg",
+"opening": [
+"For two thousand years, mathematicians used irrational numbers like √2 and π without being entirely sure what they were. Everyone knew these numbers worked. You could calculate with them, plot them on a line, use them to build bridges. But no one could say precisely what made them real. They weren't fractions. They weren't whole numbers. They seemed to live in the cracks between the numbers mathematicians actually understood.",
+"Then a German mathematician named Richard Dedekind asked a disarmingly simple question: What if we defined these mysterious numbers by the cracks themselves?"
+],
+"rest": [
+"The problem of the gaps",
+"A cut through everything",
+"Infinity between any two points",
+"Building mathematics from nothing",
+"The invisible scaffolding"
+]
+},
+{
+"id": "f8dd614c-0981-4a56-89f3-721e7de5a17f",
+"slug": "chemotherapy-is-a-calculated-poisoning-that-kills-you-f8dd614c",
+"date": "2026-11-15",
+"category": "medicine",
+"label": "Medicine",
+"headline": "Chemotherapy Is a Calculated Poisoning That Kills You Slower Than Cancer",
+"hook": "The drugs that save millions of lives each year work not by healing anything, but by exploiting a tiny speed difference in how fast they destroy cancerous versus healthy cells.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/ICU_IV_1.jpg/960px-ICU_IV_1.jpg",
+"caption": null,
+"credit": "Calleamanecer, CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:ICU_IV_1.jpg",
+"opening": [
+"Every year, roughly 650,000 cancer patients in the United States receive chemotherapy. They sit in clinical recliners while bags of liquid drip into their veins, and those liquids are, by any honest measure, poison. The drugs don't distinguish friend from foe. They attack everything that grows quickly—cancer cells, yes, but also bone marrow, hair follicles, the lining of the gut. What makes chemotherapy work isn't precision. It's math.",
+"Cancer cells divide faster and more chaotically than most healthy tissue. They've lost the molecular brakes that tell normal cells to stop replicating. That unchecked growth is what makes cancer deadly, but it's also what makes it vulnerable. Chemotherapy drugs target dividing cells, and because tumors divide more often, they absorb more poison, more quickly. The treatment becomes a race: can you kill the cancer before you kill the patient?"
+],
+"rest": [
+"A weapon forged in war",
+"The narrow window",
+"Why side effects are features, not bugs",
+"The combination gamble",
+"The future of calculated destruction"
+]
+},
+{
+"id": "d851f0db-5f62-447e-8a38-6176560b9fad",
+"slug": "the-sun-goddess-who-sulked-in-a-cave-d851f0db",
+"date": "2026-11-15",
+"category": "mythology",
+"label": "Mythology & Folklore",
+"headline": "The Sun Goddess Who Sulked in a Cave",
+"hook": "When the most important deity in Japanese mythology threw a tantrum and hid underground, it took a goddess performing a striptease to save the world.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Amaterasu_cave_crop.jpg/960px-Amaterasu_cave_crop.jpg",
+"caption": null,
+"credit": "Utagawa Kunisada (歌川国貞; b. 1786, d. 1865), Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Amaterasu_cave_crop.jpg",
+"opening": [
+"The Shinto sun goddess Amaterasu Ōmikami didn't just control daylight—she was daylight. So when she sealed herself inside a cave called Ama-no-Iwato, every rice paddy withered, every fire guttered, and eight million gods found themselves fumbling in permanent night. The crisis wasn't caused by a demon or a cosmic catastrophe. It started with a family argument."
+],
+"rest": [
+"The brother who ruined everything",
+"A divine comedy",
+"Trapped by her own brilliance",
+"A myth that still matters"
+]
+},
+{
+"id": "5d0b795d-8184-4ac3-b63c-6a7ebf5927f4",
+"slug": "why-queue-jumping-makes-you-irrationally-furious-5d0b795d",
+"date": "2026-11-15",
+"category": "sociology",
+"label": "Sociology",
+"headline": "Why Queue Jumping Makes You Irrationally Furious",
+"hook": "The rage you feel when someone cuts in line isn't petty—it's a 200,000-year-old tribal alarm system screaming that your survival group just got a traitor.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/32/Tai_Po_Voting_queue-20200712.jpg/960px-Tai_Po_Voting_queue-20200712.jpg",
+"caption": null,
+"credit": "Studio Incendo, CC BY 2.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Tai_Po_Voting_queue-20200712.jpg",
+"opening": [
+"You're waiting at the supermarket checkout. Someone strolls past and slips in three spots ahead. Your heart rate spikes. Your jaw tightens. You fantasize, briefly, about violence. The reaction is wildly disproportionate to the offense—you'll reach the register maybe ninety seconds later. But your nervous system doesn't care about ninety seconds. It cares about something far older."
+],
+"rest": [
+"The tribal betrayal detector",
+"Your brain's unfairness alarm",
+"The contagion problem",
+"The modern queue as tribal microcosm"
+]
+},
 {
 "id": "f0a479e9-1a97-4481-bb50-a5f9db87e795",
 "slug": "flying-buttresses-dont-hold-up-walls-they-hold-them-down-f0a479e9",
