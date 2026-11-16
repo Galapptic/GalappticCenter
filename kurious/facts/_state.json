@@ -1054,9 +1054,179 @@
 "f8dd614c-0981-4a56-89f3-721e7de5a17f",
 "d851f0db-5f62-447e-8a38-6176560b9fad",
 "5d0b795d-8184-4ac3-b63c-6a7ebf5927f4"
+],
+"2026-11-16": [
+"1f659352-b39c-4ec5-a824-1cc5a17b104f",
+"854c0708-6e6d-40ad-ba5b-56ff7687b9ae",
+"414c167e-6e54-414e-b35c-a2277894b6c0",
+"8089da87-ef02-457e-b873-972a720cbc71",
+"d568b1c8-f0b5-4988-9273-d9eec1c05054",
+"af0456ab-cc76-48d3-a6dd-74a0122935a0",
+"d9b67456-65ac-436c-8b86-3b4740083c35"
 ]
 },
 "facts": [
+{
+"id": "1f659352-b39c-4ec5-a824-1cc5a17b104f",
+"slug": "japans-forgotten-first-people-still-fight-to-save-their-1f659352",
+"date": "2026-11-16",
+"category": "anthropology",
+"label": "Anthropology",
+"headline": "Japan's Forgotten First People Still Fight to Save Their Language",
+"hook": "Long before samurai or shoguns, a people with full facial tattoos and a language unlike any other on Earth called Japan home—and a few thousand of them are still there.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/61/AinuSan.jpg/960px-AinuSan.jpg",
+"caption": null,
+"credit": "Torbenbrinker, CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:AinuSan.jpg",
+"opening": [
+"When the Japanese government finally recognized the Ainu as an indigenous people in 2019, it was acknowledging what archaeologists and linguists had known for decades: the ancestors of the Ainu were in Japan first. Their presence predates the Yamato people—the ethnic majority of modern Japan—by thousands of years. Today, roughly 25,000 people identify as Ainu, though the true number may be higher. Many hid their heritage for generations to escape discrimination.",
+"The Ainu are a puzzle that has fascinated researchers since the nineteenth century. Their language has no confirmed relatives. Their traditional religion centered on spirits dwelling in nature, especially bears. And their appearance—once described by European visitors as strikingly different from other Japanese people—sparked wild theories about their origins that ranged from lost Caucasians to ancient Polynesians. Modern genetics has settled the question, but the answers only deepened the mystery."
+],
+"rest": [
+"Roots older than rice",
+"Marked for life",
+"A language like no other",
+"The bear and the divine",
+"Recognition and revival"
+]
+},
+{
+"id": "854c0708-6e6d-40ad-ba5b-56ff7687b9ae",
+"slug": "the-supervolcano-sleeping-under-yellowstone-854c0708",
+"date": "2026-11-16",
+"category": "earthspace",
+"label": "Earth & Space",
+"headline": "The Supervolcano Sleeping Under Yellowstone",
+"hook": "Beneath one of America's most beloved national parks lies a volcanic system so vast that a full eruption could blanket the continent in ash and alter global climate for decades.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Aerial_image_of_Grand_Prismatic_Spring_%28view_from_the_south%29.jpg/960px-Aerial_image_of_Grand_Prismatic_Spring_%28view_from_the_south%29.jpg",
+"caption": null,
+"credit": "Carsten Steger, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Aerial_image_of_Grand_Prismatic_Spring_%28view_from_the_south%29.jpg",
+"opening": [
+"Every year, roughly four million tourists wander Yellowstone's boardwalks, snapping photos of Old Faithful and the rainbow-ringed Grand Prismatic Spring. Few realize they're standing inside the caldera of one of Earth's largest active volcanic systems—a magma reservoir that has erupted catastrophically three times in the past 2.1 million years."
+],
+"rest": [
+"What makes a supervolcano super",
+"The plumbing beneath the park",
+"What a full eruption would mean",
+"How worried should we be"
+]
+},
+{
+"id": "414c167e-6e54-414e-b35c-a2277894b6c0",
+"slug": "your-bank-doesnt-have-your-money-414c167e",
+"date": "2026-11-16",
+"category": "economics",
+"label": "Economics",
+"headline": "Your Bank Doesn't Have Your Money",
+"hook": "When you deposit $1,000, your bank can legally lend out $900 of it—creating new money that didn't exist before.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/WinonaSavingsBankVault.JPG/960px-WinonaSavingsBankVault.JPG",
+"caption": null,
+"credit": "Jonathunder, CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:WinonaSavingsBankVault.JPG",
+"opening": [
+"Banks don't store your money in a vault with your name on it. Most of it gets loaned to someone else the moment you deposit it. This isn't a scam—it's the foundation of modern banking, and it's how most of the money in circulation actually gets created."
+],
+"rest": [
+"The multiplication trick",
+"Why it usually works"
+]
+},
+{
+"id": "8089da87-ef02-457e-b873-972a720cbc71",
+"slug": "your-body-treats-a-transplanted-organ-like-an-invading-enemy-8089da87",
+"date": "2026-11-16",
+"category": "medicine",
+"label": "Medicine",
+"headline": "Your Body Treats a Transplanted Organ Like an Invading Enemy",
+"hook": "The same immune system that protects you from viruses and bacteria will attack a transplanted heart as ferociously as it would a deadly infection—and for decades, this made organ transplants impossible.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Thailand_Nonthaburi_%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%99%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A0%E0%B8%B4%E0%B8%81%E0%B8%82%E0%B8%B8_%E0%B8%8A%E0%B8%A5%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B2%E0%B8%99_%28%E0%B8%98%E0%B8%B1%E0%B8%99%E0%B8%A7%E0%B8%B2%E0%B8%84%E0%B8%A1_2022%29_operating_room.jpg/960px-thumbnail.jpg",
+"caption": null,
+"credit": "Chainwit., CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Thailand_Nonthaburi_%E0%B8%A8%E0%B8%B9%E0%B8%99%E0%B8%A2%E0%B9%8C%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9E%E0%B8%97%E0%B8%A2%E0%B9%8C%E0%B8%9B%E0%B8%B1%E0%B8%8D%E0%B8%8D%E0%B8%B2%E0%B8%99%E0%B8%B1%E0%B8%99%E0%B8%97%E0%B8%A0%E0%B8%B4%E0%B8%81%E0%B8%82%E0%B8%B8_%E0%B8%8A%E0%B8%A5%E0%B8%9B%E0%B8%A3%E0%B8%B0%E0%B8%97%E0%B8%B2%E0%B8%99_%28%E0%B8%98%E0%B8%B1%E0%B8%99%E0%B8%A7%E0%B8%B2%E0%B8%84%E0%B8%A1_2022%29_operating_room.jpg",
+"opening": [
+"In 1954, a 23-year-old man named Richard Herrick lay dying of chronic nephritis in a Boston hospital. His kidneys were failing, and there was nothing doctors could do—except for one desperate idea. His identical twin brother Ronald offered to give him a kidney. On December 23, surgeon Joseph Murray removed one of Ronald's healthy kidneys and placed it inside Richard's body. The organ pinked up immediately. Richard lived another eight years, eventually dying of causes unrelated to his transplant.",
+"The surgery was a medical milestone, but Murray knew something crucial: it only worked because the brothers were identical twins. Their genetic sameness meant Richard's body couldn't tell the difference between his own tissue and his brother's. For everyone else—the thousands of patients who didn't have an identical twin waiting to donate—organ transplants remained a death sentence. Their bodies would destroy the new organ within days."
+],
+"rest": [
+"The Body's Ruthless Border Patrol",
+"The Gruesome Path to Understanding",
+"Poisoning Patients to Save Them",
+"The Modern Balancing Act",
+"Teaching the Body to Accept"
+]
+},
+{
+"id": "d568b1c8-f0b5-4988-9273-d9eec1c05054",
+"slug": "every-culture-invented-the-same-troublemaker-d568b1c8",
+"date": "2026-11-16",
+"category": "mythology",
+"label": "Mythology & Folklore",
+"headline": "Every Culture Invented the Same Troublemaker",
+"hook": "From West Africa to the Arctic Circle, unconnected civilizations independently created the same mythological figure: a boundary-breaking chaos agent who somehow makes the world work.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Coyoteinacanoe.png/960px-Coyoteinacanoe.png",
+"caption": null,
+"credit": "F. N. Wilson, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Coyoteinacanoe.png",
+"opening": [
+"The Ashanti people of Ghana tell stories about Anansi, a spider who steals stories from the sky god. The Lakota of the Great Plains speak of Iktomi, a spider-man who tricks warriors into embarrassing themselves. Norse sagas feature Loki, a shape-shifter who cuts off a goddess's hair for sport. These figures emerged independently across oceans and millennia, yet they share something uncanny: the same job description. They lie, cheat, steal, and transform—and without them, their mythologies would collapse."
+],
+"rest": [
+"The chaos that creates order",
+"Shape-shifters at the margins",
+"Why the same figure keeps appearing",
+"The trickster's modern descendants"
+]
+},
+{
+"id": "af0456ab-cc76-48d3-a6dd-74a0122935a0",
+"slug": "your-brain-makes-decisions-before-you-know-it-af0456ab",
+"date": "2026-11-16",
+"category": "philosophy",
+"label": "Philosophy",
+"headline": "Your Brain Makes Decisions Before You Know It",
+"hook": "In 1983, a neuroscientist discovered that your brain starts preparing to act a full half-second before you feel like you've decided anything.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Brain_autopsy_lateral_view.jpg/960px-Brain_autopsy_lateral_view.jpg",
+"caption": null,
+"credit": "Jensflorian, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Brain_autopsy_lateral_view.jpg",
+"opening": [
+"Benjamin Libet was measuring something nobody had tried to time before: the gap between a brain signal and a conscious choice. His subjects sat in a lab at the University of California, San Francisco, watching a clock face while electrodes monitored their brain activity. Their task was simple—flex your wrist whenever you feel like it, and note exactly when you decided to move.",
+"What Libet found unsettled philosophers and neuroscientists for decades. The brain's motor cortex began firing about 550 milliseconds before the wrist moved. But subjects reported feeling the urge to act only about 200 milliseconds before movement. The brain, it seemed, had already made the decision 350 milliseconds before the person felt they had chosen anything at all."
+],
+"rest": [
+"The readiness potential",
+"What it means for free will",
+"The debate continues"
+]
+},
+{
+"id": "d9b67456-65ac-436c-8b86-3b4740083c35",
+"slug": "black-holes-are-slowly-vanishing-into-nothing-d9b67456",
+"date": "2026-11-16",
+"category": "physics",
+"label": "Physics",
+"headline": "Black Holes Are Slowly Vanishing Into Nothing",
+"hook": "The darkest objects in the universe are leaking away particle by particle, and quantum mechanics is to blame.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/960px-Black_hole_-_Messier_87_crop_max_res.jpg",
+"caption": null,
+"credit": "Event Horizon Telescope, uploader cropped and converted TIF to JPG, CC BY 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg",
+"opening": [
+"Nothing escapes a black hole. That was the rule until 1974, when Stephen Hawking realized something strange was happening at the edge of these gravitational monsters. They weren't just swallowing matter—they were glowing, faintly, losing mass one quantum flicker at a time."
+],
+"rest": [
+"The quantum loophole",
+"The long goodbye"
+]
+},
 {
 "id": "d4c5a14b-792f-4ef6-9508-9b8b400610d1",
 "slug": "the-ancient-art-where-hands-become-gods-and-monsters-d4c5a14b",
