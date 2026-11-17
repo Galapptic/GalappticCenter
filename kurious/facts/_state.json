@@ -1063,9 +1063,182 @@
 "d568b1c8-f0b5-4988-9273-d9eec1c05054",
 "af0456ab-cc76-48d3-a6dd-74a0122935a0",
 "d9b67456-65ac-436c-8b86-3b4740083c35"
+],
+"2026-11-17": [
+"c35139fb-94c7-437f-ab6f-cd32e6b45b00",
+"3086fe7f-4193-496b-8dff-22faaa0af584",
+"ca5f9483-dfb1-456f-85b0-ec3ebde3c0b1",
+"ae2507eb-39f9-4a84-bd6c-5c3a2e017133",
+"c212cf0c-78b7-4baf-afba-9883f98bf142",
+"113bd2ab-f9bc-48cf-9ebd-0de59cb781ba",
+"0c3677e8-bdfe-4825-b03a-f9cc655db4e7"
 ]
 },
 "facts": [
+{
+"id": "c35139fb-94c7-437f-ab6f-cd32e6b45b00",
+"slug": "americas-forgotten-megacity-once-rivaled-medieval-london-c35139fb",
+"date": "2026-11-17",
+"category": "anthropology",
+"label": "Anthropology",
+"headline": "America's Forgotten Megacity Once Rivaled Medieval London",
+"hook": "Around 1100 CE, a city larger than London rose from the Mississippi floodplains—then vanished so completely that European settlers assumed Native Americans had never built cities at all.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Monks_Mound_-_Summer_2024.jpg/960px-Monks_Mound_-_Summer_2024.jpg",
+"caption": null,
+"credit": "Skubasteve834, CC BY 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Monks_Mound_-_Summer_2024.jpg",
+"opening": [
+"In 1050 CE, something extraordinary happened near present-day St. Louis. Within just a few decades, a planned metropolis emerged from the American Bottom, a fertile Mississippi River floodplain. At its peak around 1100 CE, Cahokia held between 10,000 and 20,000 people—comparable to London at the time and larger than many European capitals."
+],
+"rest": [
+"A city built on mounds",
+"The collapse"
+]
+},
+{
+"id": "113bd2ab-f9bc-48cf-9ebd-0de59cb781ba",
+"slug": "these-ancient-sea-dragons-gave-birth-in-the-open-ocean-113bd2ab",
+"date": "2026-11-17",
+"category": "paleontology",
+"label": "Dinosaurs & Fossils",
+"headline": "These Ancient Sea Dragons Gave Birth in the Open Ocean",
+"hook": "Long before whales evolved, dolphin-shaped reptiles had already cracked the same biological problem—and a 248-million-year-old fossil proves they did it faster than anyone thought possible.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Posidonienschiefer.jpg/960px-Posidonienschiefer.jpg",
+"caption": null,
+"credit": "Original uploader was Oswald Engelhardt, CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Posidonienschiefer.jpg",
+"opening": [
+"In 1749, a fossil collector in England pulled a strange skeleton from the rocks near Whitby. It looked like a crocodile crossed with a fish, with enormous eye sockets and a long snout full of conical teeth. For decades, naturalists had no idea what they were looking at. Some thought it was a fish. Others guessed a giant salamander. It wasn't until Mary Anning began excavating complete specimens from the cliffs of Lyme Regis in the early 1800s that scientists began to understand: these were reptiles that had returned to the sea, reshaping their bodies so completely that they became indistinguishable from sharks at a glance.",
+"The ichthyosaurs—the name means \"fish lizards\"—were among the most successful marine predators the world has ever seen. They dominated the oceans for 160 million years, from the early Triassic to the mid-Cretaceous. And they solved a problem that every land animal faces when it moves into the water: how do you reproduce when you can't crawl onto a beach?"
+],
+"rest": [
+"The Holzmaden Revelation",
+"Why Tail-First Matters",
+"Faster Than Anyone Expected",
+"An Inheritance From the Land",
+"Reading the Deep Past"
+]
+},
+{
+"id": "3086fe7f-4193-496b-8dff-22faaa0af584",
+"slug": "the-race-to-the-south-pole-nearly-killed-everyone-involved-3086fe7f",
+"date": "2026-11-17",
+"category": "exploration",
+"label": "Explorers & Expeditions",
+"headline": "The Race to the South Pole Nearly Killed Everyone Involved",
+"hook": "Roald Amundsen's triumphant Antarctic expedition came within days of disaster, while Robert Scott's team perished just eleven miles from salvation.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Scottgroup.jpg/960px-Scottgroup.jpg",
+"caption": null,
+"credit": "Henry Bowers (1883–1912), Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Scottgroup.jpg",
+"opening": [
+"In the summer of 1911, two teams of men hauled themselves across the most hostile landscape on Earth, racing toward an invisible point that no human had ever reached. The Norwegian explorer Roald Amundsen and British naval officer Robert Falcon Scott both wanted to be first to the South Pole. Amundsen won. Scott died trying. But the story usually told—of Norwegian triumph and British tragedy—obscures how close both expeditions came to total catastrophe."
+],
+"rest": [
+"Amundsen's secret gamble",
+"A false start that nearly ended everything",
+"The pole and the price",
+"Scott's slow disaster",
+"Eleven miles from life",
+"What the ice takes"
+]
+},
+{
+"id": "ca5f9483-dfb1-456f-85b0-ec3ebde3c0b1",
+"slug": "the-rotten-fish-sauce-that-built-an-empire-ca5f9483",
+"date": "2026-11-17",
+"category": "food",
+"label": "Food & Cuisine",
+"headline": "The Rotten Fish Sauce That Built an Empire",
+"hook": "The world's first mass-produced condiment was made from fermented fish guts, shipped across three continents, and never really went away.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Sauce_de_poisson.jpg/960px-Sauce_de_poisson.jpg",
+"caption": null,
+"credit": "Assassas77, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Sauce_de_poisson.jpg",
+"opening": [
+"In 79 CE, when Vesuvius buried Pompeii under twenty feet of volcanic ash, it preserved something unexpected: dozens of clay jars filled with a pungent brown liquid. This was garum, ancient Rome's most prized condiment—a fermented fish sauce so valuable that a single liter could cost more than a month's wages for a laborer. Romans poured it on everything: roasted meats, vegetables, bread, even desserts. They mixed it into medicines. They believed it could cure dysentery, dog bites, and ulcers.",
+"What seems like a strange historical footnote is actually the origin story of a flavor that still dominates global cuisine. The fish sauces of Southeast Asia, the colatura of southern Italy, even Worcestershire sauce—all are direct descendants of the same fermentation process that Romans perfected two thousand years ago. Garum didn't disappear. It just changed addresses."
+],
+"rest": [
+"Rotting Fish Into Liquid Gold",
+"An Industrial Empire of Fermentation",
+"The Sauce That Never Left",
+"Why Fermented Fish Works",
+"Billions of Meals, One Fermented Ancestor"
+]
+},
+{
+"id": "ae2507eb-39f9-4a84-bd6c-5c3a2e017133",
+"slug": "cleopatra-drank-the-worlds-most-expensive-cocktail-to-win-a-ae2507eb",
+"date": "2026-11-17",
+"category": "history",
+"label": "History",
+"headline": "Cleopatra Drank the World's Most Expensive Cocktail to Win a Bet",
+"hook": "To prove she could spend ten million sesterces on a single meal, Cleopatra dissolved a pearl worth more than a Roman estate and swallowed it.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Various_pearls.jpg/960px-Various_pearls.jpg",
+"caption": null,
+"credit": "MASAYUKI KATO, CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Various_pearls.jpg",
+"opening": [
+"In 41 BCE, Cleopatra VII made a wager with the Roman general Mark Antony. She claimed she could host a banquet costing ten million sesterces—roughly $28 million today. Antony, who fancied himself a connoisseur of excess, laughed. No single meal could possibly cost that much. He took the bet.",
+"What happened next became one of antiquity's most retold stories of decadence: a queen, a cup of wine vinegar, and a pearl so valuable it could have fed an entire city."
+],
+"rest": [
+"The setup",
+"The dissolution",
+"What survived",
+"The message behind the spectacle"
+]
+},
+{
+"id": "c212cf0c-78b7-4baf-afba-9883f98bf142",
+"slug": "the-oceans-twilight-zone-holds-more-fish-than-everywhere-c212cf0c",
+"date": "2026-11-17",
+"category": "ocean",
+"label": "Oceans",
+"headline": "The Ocean's Twilight Zone Holds More Fish Than Everywhere Else",
+"hook": "Between 200 and 1,000 meters deep, in permanent near-darkness, swims a biomass so vast it dwarfs all the fish in sunlit waters combined—and we only discovered this in the last decade.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/NOAA_Ocean_Exploration_Viperfish_Chauliodus_danae.jpg/960px-NOAA_Ocean_Exploration_Viperfish_Chauliodus_danae.jpg",
+"caption": null,
+"credit": "NOAA Ocean Exploration, Voyage to the Ridge 2022, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:NOAA_Ocean_Exploration_Viperfish_Chauliodus_danae.jpg",
+"opening": [
+"For most of history, marine biologists assumed the deep ocean was a sparse place. Sunlight fades entirely by 1,000 meters down, so photosynthesis stops. No plants, little food, crushing pressure. How could much live there? Then came better sonar, deep-towed nets, and submersibles with cameras. The numbers stunned researchers: the mesopelagic zone—the twilight band between 200 and 1,000 meters—contains somewhere between 10 and 100 times more fish biomass than previous estimates suggested."
+],
+"rest": [
+"A hidden ocean of lanternfish",
+"Why we missed it",
+"The vertical commute",
+"A fragile frontier"
+]
+},
+{
+"id": "0c3677e8-bdfe-4825-b03a-f9cc655db4e7",
+"slug": "your-brain-cannot-tell-social-pain-from-physical-pain-0c3677e8",
+"date": "2026-11-17",
+"category": "psychology",
+"label": "Psychology",
+"headline": "Your Brain Cannot Tell Social Pain from Physical Pain",
+"hook": "Brain scans reveal that being snubbed by a stranger activates the exact same neural circuits as a broken bone.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4a/1206_FMRI.jpg/960px-1206_FMRI.jpg",
+"caption": null,
+"credit": "OpenStax, CC BY 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:1206_FMRI.jpg",
+"opening": [
+"In 2003, UCLA psychologist Naomi Eisenberger put volunteers inside an fMRI scanner and had them play a simple video game called Cyberball. Players tossed a virtual ball back and forth with two other participants. Halfway through, the other two players stopped throwing to the volunteer—they just kept passing between themselves. It was a small, manufactured slight from people who didn't even exist (the game was rigged). But the rejection lit up the brain like a punch to the gut."
+],
+"rest": [
+"The Same Wiring",
+"Why Evolution Wired Us This Way"
+]
+},
 {
 "id": "1f659352-b39c-4ec5-a824-1cc5a17b104f",
 "slug": "japans-forgotten-first-people-still-fight-to-save-their-1f659352",
