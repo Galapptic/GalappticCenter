@@ -1072,9 +1072,181 @@
 "c212cf0c-78b7-4baf-afba-9883f98bf142",
 "113bd2ab-f9bc-48cf-9ebd-0de59cb781ba",
 "0c3677e8-bdfe-4825-b03a-f9cc655db4e7"
+],
+"2026-11-18": [
+"7307837f-bdbe-48b1-bb3d-9db78352fee9",
+"82ff42eb-7b5a-47b0-a4bd-52d4a6c7d760",
+"3332d32f-5d6a-466b-ae8f-9bf863ff0afe",
+"df72cf3d-7206-4946-98d3-cc93fa1e8a72",
+"20f64900-1961-49b5-86b9-621aadb01374",
+"87234b94-d3ff-4cb6-81e0-fe0525ff71d3",
+"f05235de-7dcb-434d-b61f-94854d77bf2d"
 ]
 },
 "facts": [
+{
+"id": "7307837f-bdbe-48b1-bb3d-9db78352fee9",
+"slug": "ancient-egypt-mummified-70-million-animals-for-the-gods-7307837f",
+"date": "2026-11-18",
+"category": "anthropology",
+"label": "Anthropology",
+"headline": "Ancient Egypt Mummified 70 Million Animals for the Gods",
+"hook": "Radiologists scanning 2,500-year-old bundles discovered that roughly a third contained no animal at all—just feathers, eggshells, or mud shaped to look like one.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/British_museum%2C_Egypt_mummies_of_animals_%284423733728%29.jpg/960px-British_museum%2C_Egypt_mummies_of_animals_%284423733728%29.jpg",
+"caption": null,
+"credit": "Mario Sánchez, CC BY-SA 2.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:British_museum%2C_Egypt_mummies_of_animals_%284423733728%29.jpg",
+"opening": [
+"The ancient Egyptians didn't just mummify their pharaohs. Between roughly 650 BCE and 200 CE, they wrapped and preserved animals on an industrial scale—cats, ibises, dogs, crocodiles, snakes, and baboons—as offerings to the gods. Estimates suggest they produced as many as 70 million animal mummies during this period, filling vast underground catacombs at sites like Saqqara and Tuna el-Gebel."
+],
+"rest": [
+"A factory for the gods",
+"Not all bundles were genuine"
+]
+},
+{
+"id": "82ff42eb-7b5a-47b0-a4bd-52d4a6c7d760",
+"slug": "the-matchbox-machine-that-mastered-a-game-by-losing-82ff42eb",
+"date": "2026-11-18",
+"category": "games",
+"label": "Games & Puzzles",
+"headline": "The Matchbox Machine That Mastered a Game by Losing",
+"hook": "In 1960, a computer scientist built a learning machine out of 24 matchboxes and colored beads—and watched it teach itself to play a perfect game.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/003_Welth%C3%B6lzer_anagoria.JPG/960px-003_Welth%C3%B6lzer_anagoria.JPG",
+"caption": null,
+"credit": "Anagoria, CC BY 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:003_Welth%C3%B6lzer_anagoria.JPG",
+"opening": [
+"Before neural networks, before AlphaGo, before anyone had heard the phrase \"machine learning,\" a British computer scientist named Donald Michie built something remarkable in his spare time. It was made of matchboxes. It contained colored beads. And it could learn from its mistakes until it played a simple chess variant perfectly—without a single line of code or electronic component.",
+"The game was called Hexapawn. The machine was called MENACE. Together, they became one of the earliest and most elegant demonstrations that a system could improve through experience alone. No programmer told it the right moves. It figured them out by losing, over and over, until it couldn't lose anymore."
+],
+"rest": [
+"A game simple enough to solve",
+"Matchboxes with memory",
+"Learning through punishment",
+"Why simple games matter",
+"From beads to billions"
+]
+},
+{
+"id": "3332d32f-5d6a-466b-ae8f-9bf863ff0afe",
+"slug": "the-woman-who-refused-to-sign-and-changed-democracy-forever-3332d32f",
+"date": "2026-11-18",
+"category": "law",
+"label": "Law & Justice",
+"headline": "The Woman Who Refused to Sign and Changed Democracy Forever",
+"hook": "Before Rosa Parks, another Black woman in Montgomery refused to give up her bus seat—but the NAACP chose not to make her the face of their movement.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/Rosa_Parks_1956.jpg/960px-Rosa_Parks_1956.jpg",
+"caption": null,
+"credit": "UPI, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Rosa_Parks_1956.jpg",
+"opening": [
+"On March 2, 1955, fifteen-year-old Claudette Colvin was dragged off a Montgomery bus by police for refusing to give her seat to a white passenger. Nine months before Rosa Parks did the same thing. Civil rights leaders considered building their case around Colvin, but she was young, unmarried, and soon pregnant. They needed someone whose image couldn't be attacked."
+],
+"rest": [
+"The calculated arrest",
+"What she wouldn't sign"
+]
+},
+{
+"id": "df72cf3d-7206-4946-98d3-cc93fa1e8a72",
+"slug": "the-innocent-looking-equation-that-broke-mathematics-forever-df72cf3d",
+"date": "2026-11-18",
+"category": "mathematics",
+"label": "Mathematics",
+"headline": "The Innocent-Looking Equation That Broke Mathematics Forever",
+"hook": "In 1931, a 25-year-old Austrian proved that mathematics contains true statements it can never prove—using a formula that talks about itself.",
+"image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Kurt_g%C3%B6del.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+"caption": null,
+"credit": "Unknown authorUnknown author, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Kurt_g%C3%B6del.jpg",
+"opening": [
+"Kurt Gödel was quiet, paranoid, and brilliant. In 1931, while mathematicians were busy trying to put all of mathematics on a perfect logical foundation, Gödel published a short paper that showed their project was impossible. His weapon was a single self-referential formula—an equation that essentially says, \"This statement cannot be proven.\""
+],
+"rest": [
+"The dream of a perfect system",
+"Gödel's trick",
+"The two incompleteness theorems",
+"What it means"
+]
+},
+{
+"id": "20f64900-1961-49b5-86b9-621aadb01374",
+"slug": "when-numbers-have-flavors-and-tuesdays-glow-blue-20f64900",
+"date": "2026-11-18",
+"category": "medicine",
+"label": "Medicine",
+"headline": "When Numbers Have Flavors and Tuesdays Glow Blue",
+"hook": "For about 4% of the population, the senses don't stay in their lanes—the number 7 might taste like chocolate, or a C-sharp could blaze orange.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Brain_autopsy_lateral_view.jpg/960px-Brain_autopsy_lateral_view.jpg",
+"caption": null,
+"credit": "Jensflorian, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Brain_autopsy_lateral_view.jpg",
+"opening": [
+"The letter A is red. The number 5 tastes like metal. Wednesday feels green. These aren't metaphors for the roughly one in 25 people who experience synesthesia, a neurological phenomenon where stimulating one sense involuntarily triggers another. The word comes from the Greek syn (together) and aisthesis (sensation)—and that's precisely what happens. The brain's sensory wires cross, creating experiences that seem impossible to everyone else."
+],
+"rest": [
+"A spectrum of strange pairings",
+"Why some brains blend",
+"Not a disorder, possibly an advantage"
+]
+},
+{
+"id": "87234b94-d3ff-4cb6-81e0-fe0525ff71d3",
+"slug": "these-dolphins-use-tools-to-hunt-like-underwater-engineers-87234b94",
+"date": "2026-11-18",
+"category": "ocean",
+"label": "Oceans",
+"headline": "These Dolphins Use Tools to Hunt Like Underwater Engineers",
+"hook": "In the shallow waters of Shark Bay, Australia, a small population of bottlenose dolphins has invented a hunting technique so sophisticated that mothers pass it down to daughters across generations—using sea sponges as protective gloves to dig for hidden prey.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Tursiops_truncatus_01.jpg/960px-Tursiops_truncatus_01.jpg",
+"caption": null,
+"credit": "NASA, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Tursiops_truncatus_01.jpg",
+"opening": [
+"In 1984, a research team in Western Australia spotted something they couldn't explain. A bottlenose dolphin was swimming through Shark Bay with a large, cone-shaped object stuck to its nose. At first, the scientists assumed the animal was playing—dolphins are notorious for their antics. But when they looked closer, they realized the dolphin was methodically scraping the seafloor with the object, a marine sponge, before surfacing to swallow something small. It wasn't playing. It was using a tool.",
+"What followed was one of the longest-running studies of tool use in wild marine mammals, revealing that these dolphins hadn't just stumbled onto a trick. They had developed a cultural tradition, one that challenges assumptions about which animals can innovate, teach, and build lasting behavioral legacies."
+],
+"rest": [
+"The sponging technique",
+"Who sponges and why it matters",
+"The cost of innovation",
+"Beyond sponges: a toolkit of techniques",
+"What tool use tells us about dolphin minds",
+"A tradition still unfolding"
+]
+},
+{
+"id": "f05235de-7dcb-434d-b61f-94854d77bf2d",
+"slug": "why-strangers-will-lie-to-your-face-when-everyone-else-does-f05235de",
+"date": "2026-11-18",
+"category": "sociology",
+"label": "Sociology",
+"headline": "Why Strangers Will Lie to Your Face When Everyone Else Does",
+"hook": "In a small room in 1950s Pennsylvania, ordinary people looked at obviously different lines and insisted they were the same length—not because they believed it, but because three strangers before them had said so.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Stanley_Milgram_1974.jpg/960px-Stanley_Milgram_1974.jpg",
+"caption": null,
+"credit": "Unknown authorUnknown author, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Stanley_Milgram_1974.jpg",
+"opening": [
+"The lines weren't even close. One was clearly longer than the others—by a full two inches. Any child could see the difference. But when Solomon Asch asked his subjects to identify which comparison line matched the target, something strange happened. After hearing three other people in the room give the same wrong answer, 75 percent of participants went along with the group at least once. They pointed at the obviously wrong line and said, with their own mouths, that it matched.",
+"These weren't ambiguous questions about taste or opinion. They were factual, visual, almost insultingly simple. And yet, faced with unanimous disagreement from strangers they'd never see again, most people buckled. Asch's conformity experiments, conducted between 1951 and 1956 at Swarthmore College, didn't just reveal that peer pressure exists. They exposed something deeper: our willingness to abandon what we know to be true when the social cost of truth becomes too high."
+],
+"rest": [
+"The setup",
+"What the numbers revealed",
+"The fear of being different",
+"What breaks the spell",
+"The long shadow"
+]
+},
 {
 "id": "c35139fb-94c7-437f-ab6f-cd32e6b45b00",
 "slug": "americas-forgotten-megacity-once-rivaled-medieval-london-c35139fb",
