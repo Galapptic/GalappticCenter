@@ -1081,9 +1081,181 @@
 "20f64900-1961-49b5-86b9-621aadb01374",
 "87234b94-d3ff-4cb6-81e0-fe0525ff71d3",
 "f05235de-7dcb-434d-b61f-94854d77bf2d"
+],
+"2026-11-19": [
+"78329ab0-a7e2-41c1-a128-8b5393053c3e",
+"6e0747eb-1a0c-4890-9fd7-d88916697ec4",
+"7bf6cf8d-cdb1-4bda-b9f9-9134457c9627",
+"bbb46993-1d0f-4486-9067-84230d494211",
+"8a81b60d-d39d-48e7-850a-977cdb4d285f",
+"57400b9c-84e4-4f9d-9ebd-a8fd8cc8b061",
+"4777fa31-ce52-47a5-a7be-36523276b8df"
 ]
 },
 "facts": [
+{
+"id": "78329ab0-a7e2-41c1-a128-8b5393053c3e",
+"slug": "rivers-of-fire-flow-through-secret-tunnels-beneath-volcanoes-78329ab0",
+"date": "2026-11-19",
+"category": "earthspace",
+"label": "Earth & Space",
+"headline": "Rivers of Fire Flow Through Secret Tunnels Beneath Volcanoes",
+"hook": "The longest lava tube on Earth stretches 40 miles through the Korean countryside, carved by molten rock that flowed underground while the surface above stayed cool enough to walk on.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Kazumura_collapsed_floor.jpg/960px-Kazumura_collapsed_floor.jpg",
+"caption": null,
+"credit": "Dave Bunnell / Under Earth Images, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Kazumura_collapsed_floor.jpg",
+"opening": [
+"When Kīlauea erupts on Hawaii's Big Island, tourists watch fountains of orange lava from safe viewing platforms. But the real action happens where no one can see it. Beneath the black crust of hardened rock, rivers of 2,000°F magma race through natural pipelines at speeds up to 20 miles per hour, traveling miles from the volcanic vent without losing more than a few degrees of heat. These are lava tubes—nature's most efficient delivery system for molten rock."
+],
+"rest": [
+"How stone pipes build themselves",
+"The deepest cave in the United States",
+"Underground highways around the world",
+"Why scientists care about empty pipes",
+"The search for tubes on other worlds"
+]
+},
+{
+"id": "6e0747eb-1a0c-4890-9fd7-d88916697ec4",
+"slug": "the-inca-fortress-built-without-mortar-that-defied-6e0747eb",
+"date": "2026-11-19",
+"category": "history",
+"label": "History",
+"headline": "The Inca Fortress Built Without Mortar That Defied Conquistadors",
+"hook": "In 1536, Inca warriors launched a desperate assault on Spanish-occupied Cusco from walls so perfectly fitted that a knife blade couldn't slip between the stones.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_27.JPG/960px-Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_27.JPG",
+"caption": null,
+"credit": "Diego Delso, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Sacsayhuam%C3%A1n%2C_Cusco%2C_Per%C3%BA%2C_2015-07-31%2C_DD_27.JPG",
+"opening": [
+"The walls of Sacsayhuamán rise above Cusco like a stone crown. Some blocks weigh over 100 tons, yet they were cut and fitted so precisely—without mortar—that the fortress still stands nearly 500 years later. When Manco Inca decided to drive the Spanish from his capital in May 1536, this was his command post."
+],
+"rest": [
+"A rebellion from the heights",
+"The counterattack"
+]
+},
+{
+"id": "7bf6cf8d-cdb1-4bda-b9f9-9134457c9627",
+"slug": "the-1677-law-that-still-decides-which-deals-count-7bf6cf8d",
+"date": "2026-11-19",
+"category": "law",
+"label": "Law & Justice",
+"headline": "The 1677 Law That Still Decides Which Deals Count",
+"hook": "A law written to stop lying witnesses in Restoration England now determines whether your handshake agreement is worth anything in a modern courtroom.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Palace_of_Westminster_as_seen_from_Westminster_Bridge.jpg/960px-Palace_of_Westminster_as_seen_from_Westminster_Bridge.jpg",
+"caption": null,
+"credit": "ThatsTheBoss, CC0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster_as_seen_from_Westminster_Bridge.jpg",
+"opening": [
+"In 1677, England had a problem. Juries were deciding contract disputes based entirely on witness testimony, and perjury was rampant. Liars were winning cases. Honest people were losing fortunes because someone's cousin swore they'd heard a promise that never happened. Parliament's solution was radical: for certain important agreements, no written document meant no lawsuit. Period.",
+"That legislation, called the Statute of Frauds, didn't make unwritten contracts illegal. It did something arguably more severe—it made them unenforceable. You could shake hands on a deal, both parties could fully intend to honor it, and if one side walked away, the courts would simply refuse to help you. The agreement existed. You just couldn't prove it existed, so the law treated it as if it didn't."
+],
+"rest": [
+"What Has to Be Written",
+"The One-Year Rule's Strange Logic",
+"Exceptions and Workarounds",
+"Still Shaping Modern Deals"
+]
+},
+{
+"id": "bbb46993-1d0f-4486-9067-84230d494211",
+"slug": "the-instrument-you-play-without-touching-bbb46993",
+"date": "2026-11-19",
+"category": "music",
+"label": "Music",
+"headline": "The Instrument You Play Without Touching",
+"hook": "In 1920, a Soviet physicist accidentally invented an instrument played entirely by waving your hands through invisible electromagnetic fields—and it became the voice of science fiction.",
+"image": "https://upload.wikimedia.org/wikipedia/commons/7/74/Lev_Termen_playing_-_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+"caption": null,
+"credit": "Bettmann, Corbis, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Lev_Termen_playing_-_cropped.jpg",
+"opening": [
+"Most instruments require physical contact. You press piano keys, pluck guitar strings, blow into a saxophone. But the theremin demands something stranger: you stand before two metal antennas and sculpt sound from thin air. Move your right hand closer to the vertical antenna and the pitch rises. Pull it away and the pitch drops. Your left hand controls volume near a horizontal loop. The instrument responds to the position of your body within its electromagnetic field, detecting changes in capacitance caused by the proximity of human flesh. It sounds like science fiction because, in many ways, it helped create science fiction."
+],
+"rest": [
+"A Soviet Accident",
+"How Electromagnetic Fields Become Music",
+"Clara Rockmore and the Sound of Precision",
+"Hollywood's Favorite Sound of Dread",
+"From Cold War Shadows to Beach Boys",
+"Playing the Invisible",
+"The Ghost in the Machine"
+]
+},
+{
+"id": "8a81b60d-d39d-48e7-850a-977cdb4d285f",
+"slug": "trillions-of-ghost-particles-are-passing-through-you-right-8a81b60d",
+"date": "2026-11-19",
+"category": "physics",
+"label": "Physics",
+"headline": "Trillions of Ghost Particles Are Passing Through You Right Now",
+"hook": "Every second, about 100 trillion neutrinos from the sun fly through your body—and not a single one touches anything.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/FirstNeutrinoEventAnnotated.jpg/960px-FirstNeutrinoEventAnnotated.jpg",
+"caption": null,
+"credit": "Argonne National Laboratory, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:FirstNeutrinoEventAnnotated.jpg",
+"opening": [
+"Neutrinos are the loneliest particles in the universe. They have almost no mass, no electric charge, and they ignore almost every force that governs ordinary matter. This makes them nearly impossible to stop. A neutrino could pass through a wall of lead stretching from here to Alpha Centauri—four light-years away—and emerge on the other side without hitting a single atom."
+],
+"rest": [
+"Born in nuclear fire",
+"Catching a ghost"
+]
+},
+{
+"id": "57400b9c-84e4-4f9d-9ebd-a8fd8cc8b061",
+"slug": "why-rejection-hurts-like-a-knife-to-the-chest-57400b9c",
+"date": "2026-11-19",
+"category": "psychology",
+"label": "Psychology",
+"headline": "Why Rejection Hurts Like a Knife to the Chest",
+"hook": "The same brain region that processes the agony of a broken bone also lights up when you're left out of a group text.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Brain_autopsy_lateral_view.jpg/960px-Brain_autopsy_lateral_view.jpg",
+"caption": null,
+"credit": "Jensflorian, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Brain_autopsy_lateral_view.jpg",
+"opening": [
+"When someone says heartbreak feels like physical pain, they're not being dramatic. Neuroscience has confirmed what poets suspected for centuries: social rejection activates the same neural machinery that processes bodily injury. Your brain genuinely cannot tell the difference between a snub and a stab wound."
+],
+"rest": [
+"The Cyberball experiment",
+"An evolutionary hangover",
+"Tylenol for a broken heart",
+"Why some rejections cut deeper"
+]
+},
+{
+"id": "4777fa31-ce52-47a5-a7be-36523276b8df",
+"slug": "your-pilots-control-stick-isnt-actually-connected-to-4777fa31",
+"date": "2026-11-19",
+"category": "technology",
+"label": "Technology",
+"headline": "Your Pilot's Control Stick Isn't Actually Connected to Anything",
+"hook": "When an Airbus pilot pulls back on the sidestick, no cable tugs at the wings—instead, computers vote on what the plane should do, and they can overrule the human entirely.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Airbus_A320-214%2C_Airbus_Industrie_JP7617615.jpg/960px-Airbus_A320-214%2C_Airbus_Industrie_JP7617615.jpg",
+"caption": null,
+"credit": "Pedro Aragão, CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Airbus_A320-214%2C_Airbus_Industrie_JP7617615.jpg",
+"opening": [
+"In 1988, an Airbus A320 glided over a crowd at an airshow in Habsheim, France. The pilot pulled back hard on the sidestick to climb. The plane didn't respond. It had decided, based on its own calculations of altitude and airspeed, that the pilot was wrong. Three seconds later, it clipped the trees at the end of the runway. The crash killed three passengers and sparked a debate that continues today: when computers fly the plane, who's really in charge?"
+],
+"rest": [
+"The cable that disappeared",
+"Democracy at 500 miles per hour",
+"The envelope and the wall",
+"When the votes go wrong",
+"The invisible co-pilot"
+]
+},
 {
 "id": "7307837f-bdbe-48b1-bb3d-9db78352fee9",
 "slug": "ancient-egypt-mummified-70-million-animals-for-the-gods-7307837f",
