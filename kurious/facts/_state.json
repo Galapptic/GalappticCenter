@@ -1090,9 +1090,181 @@
 "8a81b60d-d39d-48e7-850a-977cdb4d285f",
 "57400b9c-84e4-4f9d-9ebd-a8fd8cc8b061",
 "4777fa31-ce52-47a5-a7be-36523276b8df"
+],
+"2026-11-20": [
+"a8afe831-edcf-4dfa-9ba3-13ec9d40806b",
+"aebe4b6b-d0c4-4feb-8b84-eaad6942eec7",
+"e2b2f92e-4d3d-4191-bdcb-db60ca6f7613",
+"179bb949-805c-408e-86e2-d06be6ee48c6",
+"3506a437-3eca-49f8-8422-8d9841c8fa8b",
+"badb727c-7b32-48af-9d50-611b4cf18d9e",
+"367a14e7-5fef-4129-9aa7-2571dc42b6f2"
 ]
 },
 "facts": [
+{
+"id": "a8afe831-edcf-4dfa-9ba3-13ec9d40806b",
+"slug": "europes-first-civilization-built-no-walls-and-no-weapons-a8afe831",
+"date": "2026-11-20",
+"category": "anthropology",
+"label": "Anthropology",
+"headline": "Europe's First Civilization Built No Walls and No Weapons",
+"hook": "While every other Bronze Age power poured resources into massive fortifications and standing armies, the Minoans on Crete flourished for over a thousand years with palaces that had no defenses at all.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Pithos_Louvre_CA4523.jpg/960px-Pithos_Louvre_CA4523.jpg",
+"caption": null,
+"credit": "Unknown artistUnknown artist, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Pithos_Louvre_CA4523.jpg",
+"opening": [
+"Around 3700 BCE, while the pyramids of Egypt were still centuries away, something unusual was taking shape on a rugged island in the eastern Mediterranean. The people we now call the Minoans were building Europe's first advanced civilization—complete with multi-story palaces, indoor plumbing, and a written language. But what they weren't building is what puzzles archaeologists most: walls.",
+"No fortifications surrounded their cities. No watchtowers dotted their coastlines. The grand palaces at Knossos, Phaistos, and Malia stood open to anyone who approached. For a Bronze Age society—an era defined elsewhere by warlords, siege warfare, and cities bristling with defenses—this was bizarre. Either the Minoans knew something their neighbors didn't, or they were spectacularly naive. They lasted 1,500 years, so naivety seems unlikely."
+],
+"rest": [
+"Palaces without gates",
+"The sea as shield",
+"A society organized differently",
+"What the art shows",
+"The end came from outside",
+"What it means"
+]
+},
+{
+"id": "aebe4b6b-d0c4-4feb-8b84-eaad6942eec7",
+"slug": "roman-engineers-made-water-flow-uphill-without-pumps-aebe4b6b",
+"date": "2026-11-20",
+"category": "architecture",
+"label": "Architecture",
+"headline": "Roman Engineers Made Water Flow Uphill Without Pumps",
+"hook": "The Romans built massive inverted siphons that pushed water up hillsides hundreds of feet high, using nothing but the weight of water pressing down from the other side.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Pont_du_Gard_BLS.jpg/960px-Pont_du_Gard_BLS.jpg",
+"caption": null,
+"credit": "Benh LIEU SONG (Flickr), CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Pont_du_Gard_BLS.jpg",
+"opening": [
+"The Roman Empire ran on water. Not just for drinking—water powered mills, filled public baths that held thousands of bathers, flushed sewers, and fed fountains on nearly every street corner. At its peak, Rome itself received over a million cubic meters of water daily through eleven aqueducts, more per capita than many modern cities. The engineering required to move that volume across valleys, over rivers, and around mountains without electricity or diesel pumps ranks among humanity's most impressive achievements.",
+"The secret wasn't magic or lost technology. It was geometry, patience, and an intimate understanding of how water behaves under pressure. Roman engineers built systems so precisely calibrated that water flowed continuously for miles at grades sometimes shallower than one foot per thousand—and when necessary, they made it climb."
+],
+"rest": [
+"The gentle mathematics of gravity",
+"When hills got in the way",
+"Pressure and lead pipes",
+"Lyon: the siphon capital",
+"The lost and the lasting"
+]
+},
+{
+"id": "e2b2f92e-4d3d-4191-bdcb-db60ca6f7613",
+"slug": "the-deep-sea-romance-where-males-become-organs-e2b2f92e",
+"date": "2026-11-20",
+"category": "biology",
+"label": "Biology",
+"headline": "The Deep-Sea Romance Where Males Become Organs",
+"hook": "In the pitch-black abyss, female anglerfish don't just mate with males—they absorb them into their bodies permanently, two fish becoming one flesh.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Humpback_anglerfish.png/960px-Humpback_anglerfish.png",
+"caption": null,
+"credit": "Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Humpback_anglerfish.png",
+"opening": [
+"When scientists first examined deep-sea anglerfish in the early 1900s, they noticed something odd: females often had strange lumps attached to their bodies. For years, researchers assumed these were parasites or tumors. Then, in 1922, Icelandic biologist Bjarni Sæmundsson made a startling discovery. The lumps had eyes. They had fins. They were males—or what remained of them."
+],
+"rest": [
+"Finding love in complete darkness",
+"Biting down forever",
+"The immune system mystery",
+"Not all anglerfish play this game"
+]
+},
+{
+"id": "badb727c-7b32-48af-9d50-611b4cf18d9e",
+"slug": "the-300-million-year-reign-that-ended-in-a-geological-badb727c",
+"date": "2026-11-20",
+"category": "paleontology",
+"label": "Dinosaurs & Fossils",
+"headline": "The 300-Million-Year Reign That Ended in a Geological Instant",
+"hook": "For longer than dinosaurs, mammals, and flowering plants combined have existed, one creature ruled Earth's oceans—then vanished so completely that we forgot they ever existed until a child found one in 1698.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Calymene_blumenbachii_%28fossil_trilobite%29_%28Much_Wenlock_Limestone%2C_Middle_Silurian%3B_Wrens_Nest%2C_Dudley%2C_England%29_6.jpg/960px-Calymene_blumenbachii_%28fossil_trilobite%29_%28Much_Wenlock_Limestone%2C_Middle_Silurian%3B_Wrens_Nest%2C_Dudley%2C_England%29_6.jpg",
+"caption": null,
+"credit": "James St. John, CC BY 2.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Calymene_blumenbachii_%28fossil_trilobite%29_%28Much_Wenlock_Limestone%2C_Middle_Silurian%3B_Wrens_Nest%2C_Dudley%2C_England%29_6.jpg",
+"opening": [
+"In the summer of 1698, a young boy named Edward Lhwyd found a strange stone in Wales. It had the shape of a flattened insect, with a segmented body and what looked like compound eyes staring up from the rock. Lhwyd, who would grow up to become a naturalist, sketched it carefully and called it a 'flatfish skeleton.' He had no way of knowing he was looking at an animal older than the Atlantic Ocean—a creature whose ancestors had been swimming when the nearest landmass to Wales was Antarctica.",
+"What Lhwyd found was a trilobite. For 300 million years—from roughly 521 to 252 million years ago—these arthropods dominated Earth's oceans with a diversity that puts modern insects to shame. They evolved into more than 20,000 known species across every marine environment on the planet. Then, at the end of the Permian period, they disappeared entirely. Not a single species survived. It remains one of the most complete erasures in the history of life."
+],
+"rest": [
+"Built for every ocean on Earth",
+"Survivors of four apocalypses",
+"The Great Dying",
+"What the stones remember"
+]
+},
+{
+"id": "179bb949-805c-408e-86e2-d06be6ee48c6",
+"slug": "quicksand-wont-swallow-you-whole-but-your-panic-might-179bb949",
+"date": "2026-11-20",
+"category": "earthspace",
+"label": "Earth & Space",
+"headline": "Quicksand Won't Swallow You Whole—But Your Panic Might",
+"hook": "The deadliest thing about quicksand isn't that it pulls you under—it's that struggling turns liquid sand into a concrete trap around your legs.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Quicksand_warning.jpg/960px-Quicksand_warning.jpg",
+"caption": null,
+"credit": "Andrew Dunn (Website: http://www.andrewdunnphoto.com/), CC BY-SA 2.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Quicksand_warning.jpg",
+"opening": [
+"Hollywood got it backwards. In dozens of films from the 1960s, quicksand was a hungry pit that sucked screaming victims down like a drain. Tarzan movies alone featured quicksand deaths seventeen times. But real quicksand doesn't pull. It doesn't have suction. And it almost certainly won't swallow you whole. The truth is stranger: quicksand is a liquid that can turn solid the moment you try to escape."
+],
+"rest": [
+"A fluid that forgets its manners",
+"Why you won't sink past your waist",
+"The real danger isn't drowning",
+"How to actually escape"
+]
+},
+{
+"id": "3506a437-3eca-49f8-8422-8d9841c8fa8b",
+"slug": "your-ears-have-a-mysterious-dead-zone-3506a437",
+"date": "2026-11-20",
+"category": "music",
+"label": "Music",
+"headline": "Your Ears Have a Mysterious Dead Zone",
+"hook": "Between the slowest vibration you can feel and the lowest note you can hear lies a strange perceptual void where sound simply doesn't exist.",
+"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/National_Chamber_Orchestra_of_Armenia.jpg/960px-National_Chamber_Orchestra_of_Armenia.jpg",
+"caption": null,
+"credit": "Սէրուժ Ուրիշեան (Serouj Ourishian), CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:National_Chamber_Orchestra_of_Armenia.jpg",
+"opening": [
+"The human ear can detect a single vibration per second—you'll feel it as a pulse, a rhythm, a beat. And it can perceive 20,000 vibrations per second as a continuous tone, the highest pitch most adults can hear. But somewhere between 1 Hz and roughly 20 Hz, something strange happens. The pulses blur together, yet no pitch emerges. You're left with nothing but a vague sense of pressure or flutter."
+],
+"rest": [
+"The cochlea's cutoff",
+"Infrasound's secret world"
+]
+},
+{
+"id": "367a14e7-5fef-4129-9aa7-2571dc42b6f2",
+"slug": "why-perpetual-motion-machines-keep-fooling-smart-people-367a14e7",
+"date": "2026-11-20",
+"category": "technology",
+"label": "Technology",
+"headline": "Why Perpetual Motion Machines Keep Fooling Smart People",
+"hook": "For centuries, inventors have fallen into the same trap: designs that look mathematically perfect on paper but violate the laws of physics in ways that are genuinely hard to spot.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Villard_de_Honnecourt.jpg/960px-Villard_de_Honnecourt.jpg",
+"caption": null,
+"credit": "Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Villard_de_Honnecourt.jpg",
+"opening": [
+"Johann Bessler demonstrated his self-moving wheel across Germany between 1712 and 1719. Crowds watched it spin for weeks. The mathematician Gottfried Wilhelm Leibniz examined it and couldn't find the trick. Bessler demanded 100,000 thalers for his secret, and when no one paid, he destroyed the machine in a rage. We still don't know exactly how he faked it."
+],
+"rest": [
+"The overbalanced wheel illusion",
+"Why the trap works"
+]
+},
 {
 "id": "78329ab0-a7e2-41c1-a128-8b5393053c3e",
 "slug": "rivers-of-fire-flow-through-secret-tunnels-beneath-volcanoes-78329ab0",
