@@ -1099,9 +1099,178 @@
 "3506a437-3eca-49f8-8422-8d9841c8fa8b",
 "badb727c-7b32-48af-9d50-611b4cf18d9e",
 "367a14e7-5fef-4129-9aa7-2571dc42b6f2"
+],
+"2026-11-21": [
+"88ba434f-6162-428b-9be0-d7e52bba4462",
+"029ed083-4bff-4b6d-8589-f8cd8cca29db",
+"401ec8b3-de64-4f52-8303-700be34b32f2",
+"07e5eaae-c591-4ced-bc0d-dc27ef4b74c7",
+"14541346-e711-4fa2-a6eb-6257fe885706",
+"26235cde-0b4a-412b-9816-105b6dbe6ea0",
+"565fd0fa-a265-47f4-98aa-8b1d0ffa133f"
 ]
 },
 "facts": [
+{
+"id": "88ba434f-6162-428b-9be0-d7e52bba4462",
+"slug": "rembrandts-secret-ingredient-made-his-paintings-glow-under-88ba434f",
+"date": "2026-11-21",
+"category": "artsculture",
+"label": "Arts & Culture",
+"headline": "Rembrandt's Secret Ingredient Made His Paintings Glow Under X-Rays",
+"hook": "When scientists aimed X-ray beams at Rembrandt's canvases, they discovered the Dutch master had been painting with a material that fluoresces in invisible light—a lead compound so rare it was thought impossible to make at room temperature.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg/960px-La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg",
+"caption": null,
+"credit": "Rembrandt, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:La_ronda_de_noche%2C_por_Rembrandt_van_Rijn.jpg",
+"opening": [
+"In 2019, researchers pointed a synchrotron X-ray beam at a tiny sample from Rembrandt's painting \"The Night Watch\" and saw something unexpected. The lead white pigment—a staple of Old Master painting—contained microscopic crystals of a compound called plumbonacrite. This lead carbonate hydroxide wasn't just unusual. According to chemistry textbooks, it shouldn't have been there at all."
+],
+"rest": [
+"A compound that shouldn't exist",
+"Why bother with chemistry?",
+"What the X-rays saw"
+]
+},
+{
+"id": "029ed083-4bff-4b6d-8589-f8cd8cca29db",
+"slug": "diamond-has-an-evil-twin-made-of-boron-and-nitrogen-029ed083",
+"date": "2026-11-21",
+"category": "chemistry",
+"label": "Chemistry",
+"headline": "Diamond Has an Evil Twin Made of Boron and Nitrogen",
+"hook": "One form is soft enough to use as makeup, the other can scratch diamond itself—and they're the exact same compound.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Rough_Diamond.jpg/960px-Rough_Diamond.jpg",
+"caption": null,
+"credit": "DGPC/ADF Luísa Oliveira, CC0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Rough_Diamond.jpg",
+"opening": [
+"In chemistry, there's a strange phenomenon called isoelectronicity: two completely different substances can have the same number of electrons in the same arrangement, making them structural twins despite having nothing in common chemically. Carbon and boron nitride are the textbook example. A carbon atom has six electrons. A boron atom has five, nitrogen has seven—average them together and you get six. This quirk of electron math means boron nitride can exist in almost the exact same crystal structures as carbon, with wildly different results."
+],
+"rest": [
+"The soft one: hexagonal boron nitride",
+"The hard one: cubic boron nitride",
+"Why bother when diamond exists?",
+"The two-dimensional frontier"
+]
+},
+{
+"id": "565fd0fa-a265-47f4-98aa-8b1d0ffa133f",
+"slug": "the-fish-that-learned-to-walk-had-limbs-nobody-expected-565fd0fa",
+"date": "2026-11-21",
+"category": "paleontology",
+"label": "Dinosaurs & Fossils",
+"headline": "The Fish That Learned to Walk Had Limbs Nobody Expected",
+"hook": "In 2004, scientists found a 375-million-year-old fossil in the Arctic that preserved the exact moment fish began their invasion of land—complete with appendages that were neither fins nor feet, but something stranger.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/Tiktaalik_Chicago.JPG/960px-Tiktaalik_Chicago.JPG",
+"caption": null,
+"credit": "Eduard Solà, CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Tiktaalik_Chicago.JPG",
+"opening": [
+"Neil Shubin had a problem. The University of Chicago paleontologist needed to find a fossil that showed how fish first crawled onto land—one of the most important transitions in the history of life. He knew roughly when it should have happened: around 375 million years ago, during the Late Devonian period. He knew what kind of rock would preserve it: freshwater sediments from that era. What he needed was a place where those exact rocks were exposed at the surface, accessible to researchers with pickaxes and patience.",
+"He found his answer in a geology textbook. The Canadian Arctic, specifically Ellesmere Island in Nunavut, had vast expanses of exposed Devonian rock. It was remote, expensive to reach, and frozen most of the year. But the rocks were the right age. In 2004, after three expeditions over six years, Shubin's team finally cracked open a slab of limestone and found what they'd been hunting: a flat-headed creature with scales like a fish, but shoulders and a neck like nothing the ocean had ever produced."
+],
+"rest": [
+"A fossil that shouldn't exist",
+"The anatomy of in-between",
+"What Tiktaalik tells us about evolutionary transitions",
+"The world Tiktaalik lived in",
+"What came next",
+"Your inner fish"
+]
+},
+{
+"id": "401ec8b3-de64-4f52-8303-700be34b32f2",
+"slug": "he-crossed-greenland-the-wrong-way-on-purpose-401ec8b3",
+"date": "2026-11-21",
+"category": "exploration",
+"label": "Explorers & Expeditions",
+"headline": "He Crossed Greenland the Wrong Way on Purpose",
+"hook": "In 1888, Fridtjof Nansen landed on Greenland's uninhabited east coast with no backup plan—because retreat, he figured, would only tempt his team to quit.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9b/Fridtjof_Nansen_LOC_03377u-3.jpg/960px-Fridtjof_Nansen_LOC_03377u-3.jpg",
+"caption": null,
+"credit": "Henry Van der Weyde, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Fridtjof_Nansen_LOC_03377u-3.jpg",
+"opening": [
+"Before Fridtjof Nansen, polar expeditions worked like insurance policies. Teams landed near safety, pushed into the unknown, and turned back when things got hard. Nansen thought this guaranteed failure. So in 1888, the 26-year-old Norwegian zoologist proposed something that struck seasoned explorers as suicidal: cross Greenland's ice cap from east to west, starting from the empty side."
+],
+"rest": [
+"No way back",
+"Forty-one days on the ice"
+]
+},
+{
+"id": "07e5eaae-c591-4ced-bc0d-dc27ef4b74c7",
+"slug": "the-fungus-that-made-medieval-europe-go-mad-07e5eaae",
+"date": "2026-11-21",
+"category": "food",
+"label": "Food & Cuisine",
+"headline": "The Fungus That Made Medieval Europe Go Mad",
+"hook": "For centuries, entire villages would suddenly descend into mass hallucinations, convulsions, and gangrene—and nobody knew the rye bread was to blame.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Claviceps_purpurea.JPG/960px-Claviceps_purpurea.JPG",
+"caption": null,
+"credit": "Dominique Jacquin, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Claviceps_purpurea.JPG",
+"opening": [
+"In 994 CE, roughly 40,000 people died in Aquitaine, France. Survivors described burning sensations in their limbs, violent convulsions, and terrifying visions. Some lost fingers, toes, even entire limbs to a creeping black rot. Priests called it \"holy fire\" or \"St. Anthony's Fire,\" and blamed demonic possession. The real culprit was sitting on their dinner tables: bread made from contaminated rye."
+],
+"rest": [
+"A parasite hiding in plain sight",
+"Outbreaks that shaped history",
+"From poison to pharmacy"
+]
+},
+{
+"id": "14541346-e711-4fa2-a6eb-6257fe885706",
+"slug": "the-snow-woman-who-walks-without-leaving-a-trace-14541346",
+"date": "2026-11-21",
+"category": "mythology",
+"label": "Mythology & Folklore",
+"headline": "The Snow Woman Who Walks Without Leaving a Trace",
+"hook": "In Japanese folklore, one spirit is so weightless and otherworldly that she glides barefoot across deep snow without disturbing a single flake.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d5/Suushi_Yuki-onna.jpg/960px-Suushi_Yuki-onna.jpg",
+"caption": null,
+"credit": "Sawaki Suushi (佐脇嵩之), Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Suushi_Yuki-onna.jpg",
+"opening": [
+"She appears on the coldest nights of winter, when blizzards howl through mountain villages and travelers lose their way. Her skin is pale as fresh powder, her kimono white as ice. She moves silently across the frozen landscape, her bare feet touching the snow but never breaking its surface. When morning comes, searchers find no trail—just the bodies of those who froze in the night, their faces locked in expressions of terror or, strangely, peace.",
+"This is Yuki-onna, the Snow Woman of Japanese folklore, a spirit whose impossible footprints—or rather, the complete absence of them—have haunted winter tales for at least five centuries."
+],
+"rest": [
+"Born from the blizzard itself",
+"The science of her impossibility",
+"Lafcadio Hearn and the story that traveled west",
+"Deadly, merciful, or something else entirely",
+"Still walking, still leaving no trace"
+]
+},
+{
+"id": "26235cde-0b4a-412b-9816-105b6dbe6ea0",
+"slug": "this-fish-has-a-see-through-head-full-of-green-jelly-26235cde",
+"date": "2026-11-21",
+"category": "ocean",
+"label": "Oceans",
+"headline": "This Fish Has a See-Through Head Full of Green Jelly",
+"hook": "The Pacific barreleye fish solved a bizarre evolutionary problem by filling its skull with transparent fluid and rotating its tubular eyes upward through the top of its head.",
+"image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Blue_Linckia_Starfish.JPG/960px-Blue_Linckia_Starfish.JPG",
+"caption": null,
+"credit": "Richard Ling <wikipedia@rling.com>, CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Blue_Linckia_Starfish.JPG",
+"opening": [
+"In 1939, marine biologists discovered a fish so strange they assumed their specimens were damaged. The Pacific barreleye, Macropinna microstoma, appeared to have a collapsed, gelatinous dome where its skull should be. It took nearly seventy years to realize the dome wasn't collapsed at all—that's just what the fish looks like alive."
+],
+"rest": [
+"Eyes that point through the skull",
+"A head full of fluid"
+]
+},
 {
 "id": "a8afe831-edcf-4dfa-9ba3-13ec9d40806b",
 "slug": "europes-first-civilization-built-no-walls-and-no-weapons-a8afe831",
