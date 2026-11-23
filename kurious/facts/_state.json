@@ -1117,9 +1117,178 @@
 "3158736c-3a3d-4ccb-ba8e-61d848b150d5",
 "e1f0b164-7a24-4c42-9907-8389eef77059",
 "452ed23f-4960-44f6-bacf-d7d367f26ad6"
+],
+"2026-11-23": [
+"6dab7bc8-8b8c-4111-ba99-a44027047b53",
+"13d517e8-d1ff-4402-a0f8-86644506ba0c",
+"8c2f9ed6-80d2-4364-b4d5-563cc0ec98e0",
+"042391e3-aa5f-4bfd-ad88-61a5f410f050",
+"38dccea6-e79d-4223-8afa-50b87b1102e3",
+"acecb8b2-853d-4f06-a170-f4fbe43c6dd1",
+"29ac8f11-f80a-43d2-9027-caca8f28c463"
 ]
 },
 "facts": [
+{
+"id": "6dab7bc8-8b8c-4111-ba99-a44027047b53",
+"slug": "ancient-peruvians-drew-giant-art-they-could-never-see-6dab7bc8",
+"date": "2026-11-23",
+"category": "anthropology",
+"label": "Anthropology",
+"headline": "Ancient Peruvians Drew Giant Art They Could Never See",
+"hook": "For over a thousand years, enormous drawings of spiders, monkeys, and hummingbirds stretched across Peru's desert floor—yet no one could fully see them until the invention of the airplane.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_49.JPG/960px-L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_49.JPG",
+"caption": null,
+"credit": "Diego Delso, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:L%C3%ADneas_de_Nazca%2C_Nazca%2C_Per%C3%BA%2C_2015-07-29%2C_DD_49.JPG",
+"opening": [
+"In 1927, Peruvian archaeologist Toribio Mejía Xesspe was hiking through the coastal desert when he noticed something strange: shallow grooves in the earth that seemed to form deliberate patterns. It wasn't until 1930, when commercial pilots began flying over the region, that anyone realized what lay below. The grooves weren't random. They were drawings—hundreds of them—some stretching longer than the Empire State Building is tall."
+],
+"rest": [
+"Scraping Away the Surface",
+"Made for the Gods, Not for Humans",
+"Walking the Lines"
+]
+},
+{
+"id": "13d517e8-d1ff-4402-a0f8-86644506ba0c",
+"slug": "the-only-dads-on-earth-who-actually-get-pregnant-13d517e8",
+"date": "2026-11-23",
+"category": "biology",
+"label": "Biology",
+"headline": "The Only Dads on Earth Who Actually Get Pregnant",
+"hook": "Male seahorses don't just help with childcare—they grow a womb-like pouch, carry embryos for weeks, and go through labor contractions to deliver hundreds of fully formed babies.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg/960px-Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg",
+"caption": null,
+"credit": "Hans Hillewaert, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Hippocampus_hippocampus_%28on_Ascophyllum_nodosum%29.jpg",
+"opening": [
+"In the entire animal kingdom, across millions of species that reproduce sexually, exactly one group has evolved true male pregnancy. Not shared parenting. Not egg-guarding. Actual pregnancy, complete with a placenta-like organ, nutrient transfer, and labor. The seahorse and its close relatives—pipefish and sea dragons—have completely flipped the reproductive script that governs nearly all other life on Earth.",
+"Scientists have known about male seahorse pregnancy since ancient times—Aristotle noted their unusual breeding in the fourth century BCE. But only in recent decades have researchers begun to understand just how remarkable this process truly is. Male seahorses don't simply hold eggs in a pouch like a kangaroo carries a joey. They transform their bodies into something biologically equivalent to a mammalian uterus."
+],
+"rest": [
+"How male pregnancy actually works",
+"A pouch that acts like a placenta",
+"Labor pains and delivery",
+"Why evolution took this path",
+"An ancient family tree"
+]
+},
+{
+"id": "8c2f9ed6-80d2-4364-b4d5-563cc0ec98e0",
+"slug": "the-ocean-glows-neon-blue-thanks-to-trillions-of-tiny-alarms-8c2f9ed6",
+"date": "2026-11-23",
+"category": "earthspace",
+"label": "Earth & Space",
+"headline": "The Ocean Glows Neon Blue Thanks to Trillions of Tiny Alarms",
+"hook": "Those electric-blue waves you see in viral beach videos aren't a trick of the light—they're caused by single-celled organisms screaming for help.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Photinus_pyralis_Firefly_glowing.jpg/960px-Photinus_pyralis_Firefly_glowing.jpg",
+"caption": null,
+"credit": "art farmer from evansville indiana, usa, CC BY-SA 2.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Photinus_pyralis_Firefly_glowing.jpg",
+"opening": [
+"On certain nights, breaking waves along the California coast look like liquid lightning. Each crash sends ribbons of neon blue racing across the water. The glow isn't coming from above—it's coming from within. Trillions of microscopic organisms called dinoflagellates are responsible, and they light up for a surprisingly dark reason."
+],
+"rest": [
+"A flash in self-defense",
+"Chemistry in a fraction of a second",
+"Where and when to see it",
+"An ancient light"
+]
+},
+{
+"id": "042391e3-aa5f-4bfd-ad88-61a5f410f050",
+"slug": "early-movie-projectors-were-so-bright-they-set-theaters-on-042391e3",
+"date": "2026-11-23",
+"category": "film",
+"label": "Film & TV",
+"headline": "Early Movie Projectors Were So Bright They Set Theaters on Fire",
+"hook": "The same technology that lit Victorian streetlamps nearly burned down the first movie palaces, and projectionists risked their lives every time they threaded a reel.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Projecteur_cin%C3%A9matographique_35mm.jpg/960px-Projecteur_cin%C3%A9matographique_35mm.jpg",
+"caption": null,
+"credit": "This photo was taken by Roman Bonnefoy ( Romanceor [parlons-en]). Feel free to u, CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Projecteur_cin%C3%A9matographique_35mm.jpg",
+"opening": [
+"In 1897, a charity bazaar in Paris caught fire during a film screening, killing 126 people—many of them aristocrats who had gathered to watch the marvelous new invention called cinema. The culprit wasn't the film itself, though that was dangerously flammable too. It was the projector's light source: an arc lamp burning at temperatures exceeding 6,000°F (3,300°C), hot enough to rival the surface of the sun. For the first three decades of cinema, every movie flickered to life through controlled lightning, and theaters learned to fear what happened when that lightning escaped."
+],
+"rest": [
+"Electricity made visible",
+"The projectionist's deadly trade",
+"Curtains, carpets, and catastrophe",
+"Light without fire"
+]
+},
+{
+"id": "38dccea6-e79d-4223-8afa-50b87b1102e3",
+"slug": "the-three-year-wait-behind-every-drop-of-vanilla-38dccea6",
+"date": "2026-11-23",
+"category": "food",
+"label": "Food & Cuisine",
+"headline": "The Three-Year Wait Behind Every Drop of Vanilla",
+"hook": "The world's most popular flavor comes from an orchid so finicky that nearly every pod on Earth exists because a human touched it at exactly the right moment.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Vanilla_planifolia_%286998639597%29.jpg/960px-Vanilla_planifolia_%286998639597%29.jpg",
+"caption": null,
+"credit": "Malcolm Manners from Lakeland FL, USA, CC BY 2.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Vanilla_planifolia_%286998639597%29.jpg",
+"opening": [
+"Vanilla is the only orchid grown commercially for food. The vine, Vanilla planifolia, produces pale yellow-green flowers that bloom for just 24 hours. Miss that window, and the flower drops—no pod, no vanilla. In the wild, only specific bees and hummingbirds native to Mexico can pollinate it. Everywhere else, humans must do the job by hand."
+],
+"rest": [
+"A 12-year-old's discovery",
+"Three years, pod to bottle"
+]
+},
+{
+"id": "acecb8b2-853d-4f06-a170-f4fbe43c6dd1",
+"slug": "the-worlds-first-mass-produced-drug-was-an-opiate-acecb8b2",
+"date": "2026-11-23",
+"category": "medicine",
+"label": "Medicine",
+"headline": "The World's First Mass-Produced Drug Was an Opiate",
+"hook": "Before aspirin, before penicillin, before any modern pill, pharmaceutical companies cut their teeth on one of the most addictive substances ever known.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Papaver_somniferum_flowers.jpg/960px-Papaver_somniferum_flowers.jpg",
+"caption": null,
+"credit": "tanja niggendijker from apeldoorn, the netherlands, CC BY 2.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Papaver_somniferum_flowers.jpg",
+"opening": [
+"In 1804, a 21-year-old German pharmacist named Friedrich Sertürner isolated a crystalline compound from opium poppies. He tested it on himself and three teenage boys, nearly killing all four of them. But the compound worked: it erased pain like nothing before it. Sertürner named it morphine, after Morpheus, the Greek god of dreams."
+],
+"rest": [
+"From apothecary to assembly line"
+]
+},
+{
+"id": "29ac8f11-f80a-43d2-9027-caca8f28c463",
+"slug": "your-brain-cant-tell-if-pain-is-real-or-imagined-29ac8f11",
+"date": "2026-11-23",
+"category": "psychology",
+"label": "Psychology",
+"headline": "Your Brain Can't Tell If Pain Is Real or Imagined",
+"hook": "When you vividly picture stubbing your toe, the same neural circuits fire as when you actually slam it into the coffee table—and researchers are using this quirk to treat chronic pain.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Brain_autopsy_lateral_view.jpg/960px-Brain_autopsy_lateral_view.jpg",
+"caption": null,
+"credit": "Jensflorian, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Brain_autopsy_lateral_view.jpg",
+"opening": [
+"In 2004, a team at University College London asked volunteers to do something unusual: lie perfectly still in a brain scanner and imagine plunging their hand into a bucket of ice water. The subjects had done the real thing moments before, so they knew exactly how it felt—the sharp bite, the aching cold, the desperate urge to pull their hand out. What happened next surprised even the researchers. The brain patterns during imagination looked remarkably similar to those recorded during actual pain. The same regions lit up. The same networks hummed to life.",
+"This wasn't a fluke. Over the past two decades, neuroscientists have confirmed again and again that the brain processes imagined pain and real pain through overlapping pathways. The implications reach far beyond laboratory curiosity: this neural confusion helps explain why some pain persists long after injuries heal, why placebos work, and how mental training might one day replace pills for millions of chronic pain sufferers."
+],
+"rest": [
+"The Pain Matrix",
+"The Imagination Experiments",
+"Why Evolution Built a Worrier",
+"Turning the System Against Itself",
+"The Dark Side of Neural Overlap",
+"What This Means for You"
+]
+},
 {
 "id": "c39e85cd-3235-4d71-86e1-c27a40d3ae96",
 "slug": "mantis-shrimp-see-colors-that-have-no-names-in-any-language-c39e85cd",
