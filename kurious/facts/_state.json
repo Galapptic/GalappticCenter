@@ -1126,9 +1126,176 @@
 "38dccea6-e79d-4223-8afa-50b87b1102e3",
 "acecb8b2-853d-4f06-a170-f4fbe43c6dd1",
 "29ac8f11-f80a-43d2-9027-caca8f28c463"
+],
+"2026-11-24": [
+"88a1c2d9-5341-4576-8a6d-efb9c0370798",
+"121fbf15-6310-41f4-a004-f8f8ddcb2137",
+"2695d9f0-c331-4094-8339-4c6f04491398",
+"29af6e00-d959-40e9-85c3-229eabfac008",
+"79112c12-276f-4c78-b51f-eb9a9992e7ea",
+"e70f5af2-8431-496f-8b79-7c9099829c49",
+"7731cbc5-239b-45c1-91e3-0288a6077b5b"
 ]
 },
 "facts": [
+{
+"id": "88a1c2d9-5341-4576-8a6d-efb9c0370798",
+"slug": "stone-age-babies-left-their-mark-on-their-mothers-bones-88a1c2d9",
+"date": "2026-11-24",
+"category": "anthropology",
+"label": "Anthropology",
+"headline": "Stone Age Babies Left Their Mark on Their Mothers' Bones",
+"hook": "The first farmers' babies spent their days strapped, slung, and hip-carried in ways that reshaped bone, both the mothers' and sometimes the infants' own.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Neeta_Lind_Navajo_cradle_board.jpg/960px-Neeta_Lind_Navajo_cradle_board.jpg",
+"caption": null,
+"credit": "Neeta Lind, CC BY 2.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Neeta_Lind_Navajo_cradle_board.jpg",
+"opening": [
+"A baby weighs about 7 pounds (3.2 kg) at birth and roughly 20 pounds (9 kg) by its first birthday. Today that weight moves around in strollers, car seats, and padded carriers. For most of human history it rode on a parent's body, often for most of the day. When farming spread across the Near East and Europe after about 9000 BC, how infants were carried changed along with almost everything else. Some of those changes can still be read in bone.",
+"Skeletons record habits. Bone is living tissue that thickens and reshapes under repeated stress, so a lifetime of hauling, grinding, and holding leaves a measurable signature. Archaeologists have learned to read that signature in two places: the arms and spines of adult women, and the skulls of the children they carried."
+],
+"rest": [
+"Arms stronger than rowers",
+"Why farmers carried differently",
+"The evidence on the children's skulls",
+"Reading cautiously"
+]
+},
+{
+"id": "121fbf15-6310-41f4-a004-f8f8ddcb2137",
+"slug": "the-spiral-minarets-that-were-never-built-for-blind-climbers-121fbf15",
+"date": "2026-11-24",
+"category": "architecture",
+"label": "Architecture",
+"headline": "The spiral minarets that were never built for blind climbers",
+"hook": "A popular story says Iraq's corkscrew minarets were shaped so blind callers to prayer could climb them by feel, but the real link between blindness and minarets is stranger and better documented.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/73/%D8%B5%D9%88%D8%B1%D9%87_%D9%81%D9%8A_%D8%A7%D8%AC%D9%88%D8%A7%D8%A1_%D9%85%D8%B7%D8%B1%D9%8A%D9%87_%D9%84%D9%84%D9%85%D8%A3%D8%B0%D9%86%D9%87_%D8%A7%D9%84%D9%85%D9%84%D9%88%D9%8A%D9%87_%D9%81%D9%8A_%D8%B3%D8%A7%D9%85%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82.jpg/960px-%D8%B5%D9%88%D8%B1%D9%87_%D9%81%D9%8A_%D8%A7%D8%AC%D9%88%D8%A7%D8%A1_%D9%85%D8%B7%D8%B1%D9%8A%D9%87_%D9%84%D9%84%D9%85%D8%A3%D8%B0%D9%86%D9%87_%D8%A7%D9%84%D9%85%D9%84%D9%88%D9%8A%D9%87_%D9%81%D9%8A_%D8%B3%D8%A7%D9%85%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82.jpg",
+"caption": null,
+"credit": "Abdulmomen Laith Mahmoud (عبدالمؤمن ليث محمود), CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:%D8%B5%D9%88%D8%B1%D9%87_%D9%81%D9%8A_%D8%A7%D8%AC%D9%88%D8%A7%D8%A1_%D9%85%D8%B7%D8%B1%D9%8A%D9%87_%D9%84%D9%84%D9%85%D8%A3%D8%B0%D9%86%D9%87_%D8%A7%D9%84%D9%85%D9%84%D9%88%D9%8A%D9%87_%D9%81%D9%8A_%D8%B3%D8%A7%D9%85%D8%B1%D8%A7%D8%A1_%D8%A7%D9%84%D8%B9%D8%B1%D8%A7%D9%82.jpg",
+"opening": [
+"Rising 171 feet (52 m) above the plain of central Iraq, the Malwiya minaret of Samarra looks like a giant seashell set on end. A ramp about 7.5 feet (2.3 m) wide winds counterclockwise around the outside five times, with no railing, until it reaches a small pavilion at the top. The name comes from the Arabic for \"twisted\" or \"coiled.\"",
+"A tidy explanation often travels with photos of it: the spiral was designed so that blind muezzins, the men who call Muslims to prayer, could find their way up by touch alone. It is an appealing story. No historical source supports it. The truth involves blind muezzins, but for a very different reason."
+],
+"rest": [
+"A caliph's monument",
+"Why the touch theory falls apart",
+"The real blind muezzins",
+"How a myth gets built"
+]
+},
+{
+"id": "29af6e00-d959-40e9-85c3-229eabfac008",
+"slug": "dante-never-rewrote-church-doctrine-on-hell-but-he-redrew-29af6e00",
+"date": "2026-11-24",
+"category": "literature",
+"label": "Books & Literature",
+"headline": "Dante Never Rewrote Church Doctrine on Hell, but He Redrew It for Everyone Else",
+"hook": "The circles, the frozen lake and the punishments tailored to each sin are not in the Bible or in any Church ruling: they came from a Florentine exile's poem, and they took over the Western imagination anyway.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/La_puerta_del_Infierno_de_Rodin_del_museo_Soumaya_%28con_fondo_negro%29.jpg/960px-La_puerta_del_Infierno_de_Rodin_del_museo_Soumaya_%28con_fondo_negro%29.jpg",
+"caption": null,
+"credit": "Jahuey, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:La_puerta_del_Infierno_de_Rodin_del_museo_Soumaya_%28con_fondo_negro%29.jpg",
+"opening": [
+"The popular version of this story says Dante's Inferno was so persuasive that medieval theologians revised their teaching on hell to fit it. That is not what happened. No council, pope or catechism ever adopted Dante's nine circles. The real story is stranger. A poem written by a political exile between roughly 1308 and 1321 reshaped how ordinary people, artists and even scientists pictured hell, while official theology stayed almost silent about its geography."
+],
+"rest": [
+"What the Church Actually Taught",
+"Hell Before Dante",
+"How a Poem Became a Map",
+"Measuring an Imaginary Place",
+"Shaping Belief Without Changing Doctrine"
+]
+},
+{
+"id": "2695d9f0-c331-4094-8339-4c6f04491398",
+"slug": "whaling-ships-burned-whales-to-hunt-more-whales-2695d9f0",
+"date": "2026-11-24",
+"category": "exploration",
+"label": "Explorers & Expeditions",
+"headline": "Whaling Ships Burned Whales to Hunt More Whales",
+"hook": "A 19th-century whaleship carried its own furnace on deck, and once the hunt began, the fuel for that fire came from the whale itself.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1a/Walfang_zwischen_1856_und_1907.jpg/960px-Walfang_zwischen_1856_und_1907.jpg",
+"caption": null,
+"credit": "Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Walfang_zwischen_1856_und_1907.jpg",
+"opening": [
+"Earlier whalers towed carcasses to shore or stowed raw blubber in barrels, where it rotted on long voyages. By the mid-1700s, American whalers had a better idea. They bricked a pair of huge iron cauldrons, called try-pots, into a furnace just aft of the foremast. With that \"tryworks\" on deck, a ship could turn a whale into oil at sea and stay out for years."
+],
+"rest": [
+"A Fire That Fed Itself",
+"Accidental Explorers"
+]
+},
+{
+"id": "79112c12-276f-4c78-b51f-eb9a9992e7ea",
+"slug": "the-hairy-deep-sea-crab-that-grows-its-own-food-79112c12",
+"date": "2026-11-24",
+"category": "ocean",
+"label": "Oceans",
+"headline": "The Hairy Deep-Sea Crab That Grows Its Own Food",
+"hook": "Near scalding vents on the Pacific seafloor, a crab survives by waving its arms to fertilize the bacterial garden growing in its own fur.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Yeti_crab.jpg/960px-Yeti_crab.jpg",
+"caption": null,
+"credit": "Andrew Thurber, Oregon State University, CC BY-SA 2.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Yeti_crab.jpg",
+"opening": [
+"In 2005, scientists diving in the submersible Alvin on the Pacific-Antarctic Ridge, about 900 miles (1,500 km) south of Easter Island, found a pale, blind crab with arms covered in silky blond bristles. They named it Kiwa hirsuta, after a Polynesian sea goddess, and the press quickly called it the yeti crab."
+],
+"rest": [
+"A farm on its arms",
+"Trapped by warmth"
+]
+},
+{
+"id": "e70f5af2-8431-496f-8b79-7c9099829c49",
+"slug": "your-brain-deletes-every-blink-before-you-notice-it-e70f5af2",
+"date": "2026-11-24",
+"category": "psychology",
+"label": "Psychology",
+"headline": "Your Brain Deletes Every Blink Before You Notice It",
+"hook": "You spend roughly 10 percent of your waking hours with your eyes shut, and your brain hides every second of it from you.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Human_eye_with_blood_vessels.jpg/960px-Human_eye_with_blood_vessels.jpg",
+"caption": null,
+"credit": "ROTFLOLEB, CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Human_eye_with_blood_vessels.jpg",
+"opening": [
+"The average adult blinks about 15 to 20 times a minute, and each blink lasts roughly 100 to 400 milliseconds. Add it up and you are effectively blind for several seconds every minute, close to 10 percent of the time you are awake. Yet the world never flickers. Lights don't dim, faces don't vanish, and a movie screen stays steadily bright. That seamless view is not what your eyes deliver. It is what your brain builds after quietly cutting out the dark frames."
+],
+"rest": [
+"Catching the brain in the act",
+"Not the only edit",
+"Why the illusion matters"
+]
+},
+{
+"id": "7731cbc5-239b-45c1-91e3-0288a6077b5b",
+"slug": "every-sprinter-slows-down-before-the-finish-line-7731cbc5",
+"date": "2026-11-24",
+"category": "sports",
+"label": "Sports & Athletics",
+"headline": "Every Sprinter Slows Down Before the Finish Line",
+"hook": "Even Usain Bolt was losing speed during his 9.58-second world record, and the race is won by whoever slows down the least.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Usain_Bolt_smiling_Berlin_2009.JPG/960px-Usain_Bolt_smiling_Berlin_2009.JPG",
+"caption": null,
+"credit": "Erik van Leeuwen, GFDL",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Usain_Bolt_smiling_Berlin_2009.JPG",
+"opening": [
+"Watch a 100-meter final and the leaders seem to surge through the tape. The timing data says otherwise. Almost every elite sprinter hits top speed somewhere between 50 and 80 meters, then decelerates for the rest of the race. The popular explanation is that sprinters slow down because they can't control their speed. The real reason is simpler and harsher: their bodies run out of the fuel that makes maximum speed possible."
+],
+"rest": [
+"Inside the fastest race ever run",
+"Why the legs give out",
+"Winning by fading less"
+]
+},
 {
 "id": "6dab7bc8-8b8c-4111-ba99-a44027047b53",
 "slug": "ancient-peruvians-drew-giant-art-they-could-never-see-6dab7bc8",
