@@ -1135,9 +1135,178 @@
 "79112c12-276f-4c78-b51f-eb9a9992e7ea",
 "e70f5af2-8431-496f-8b79-7c9099829c49",
 "7731cbc5-239b-45c1-91e3-0288a6077b5b"
+],
+"2026-11-25": [
+"82bfa04c-2004-4b13-879b-c9c32920e6df",
+"b5809736-da38-4a22-9680-90377d327ae1",
+"b6d1288a-1393-472a-8b3f-74f0870c462f",
+"7b258521-4564-4f92-98be-0c1d29b2d74a",
+"7653e567-f565-4c92-b3ed-32df34251739",
+"376e8170-e04a-4b9a-99a8-ffbb4503aa39",
+"863ff7b2-3b8a-4ee0-b11e-aca4ec77d7b0"
 ]
 },
 "facts": [
+{
+"id": "82bfa04c-2004-4b13-879b-c9c32920e6df",
+"slug": "the-dome-of-the-rock-hides-its-weight-in-plain-sight-82bfa04c",
+"date": "2026-11-25",
+"category": "architecture",
+"label": "Architecture",
+"headline": "The Dome of the Rock Hides Its Weight in Plain Sight",
+"hook": "Jerusalem's golden dome looks like it floats, and that is because of a carefully planned pattern of piers, columns, and light, plus a secret about what the dome is made of.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Jerusalem_DomeoftheRock_J65_%28cropped%29.JPG/960px-Jerusalem_DomeoftheRock_J65_%28cropped%29.JPG",
+"caption": null,
+"credit": "Ludvig14, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Jerusalem_DomeoftheRock_J65_%28cropped%29.JPG",
+"opening": [
+"Completed around 691 CE under the Umayyad caliph Abd al-Malik, the Dome of the Rock is the oldest surviving major monument of Islamic architecture. Its gilded dome spans about 66 feet (20 m) and rises roughly 115 feet (35 m) above the Temple Mount. Yet from inside, it doesn't seem to press down at all."
+],
+"rest": [
+"Squares Inside a Circle",
+"Rhythm That Spreads the Load"
+]
+},
+{
+"id": "b5809736-da38-4a22-9680-90377d327ae1",
+"slug": "one-metal-paints-rubies-red-and-emeralds-green-b5809736",
+"date": "2026-11-25",
+"category": "chemistry",
+"label": "Chemistry",
+"headline": "One Metal Paints Rubies Red and Emeralds Green",
+"hook": "The blood red of a ruby and the deep green of an emerald come from the same trace impurity: a few chromium atoms, usually less than 2 percent of the stone, tuned by the crystals that hold them.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/B%C3%A9ryl_var._%C3%A9meraude_sur_gangue_%28Muzo_Mine_Boyaca_-_Colombie%29_2.jpg/960px-B%C3%A9ryl_var._%C3%A9meraude_sur_gangue_%28Muzo_Mine_Boyaca_-_Colombie%29_2.jpg",
+"caption": null,
+"credit": "Géry PARENT, CC0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:B%C3%A9ryl_var._%C3%A9meraude_sur_gangue_%28Muzo_Mine_Boyaca_-_Colombie%29_2.jpg",
+"opening": [
+"Pure corundum, the mineral behind rubies, is colorless. So is pure beryl, the mineral behind emeralds. Both are made of light elements: aluminum and oxygen in corundum, with beryllium and silicon added in beryl. Neither has any built-in reason to be red or green. The color in both comes from an intruder. When a little chromium replaces some aluminum atoms, corundum turns red and beryl turns green. The impurity is the same in both stones. The surroundings are different."
+],
+"rest": [
+"The Element Named for Color",
+"Same Atom, Different Cage",
+"Rubies That Glow",
+"The Stone That Can't Decide"
+]
+},
+{
+"id": "b6d1288a-1393-472a-8b3f-74f0870c462f",
+"slug": "lake-baikal-freezes-so-clear-you-can-see-130-feet-down-b6d1288a",
+"date": "2026-11-25",
+"category": "earthspace",
+"label": "Earth & Space",
+"headline": "Lake Baikal Freezes So Clear You Can See 130 Feet Down",
+"hook": "Each winter the world's deepest lake turns into a sheet of glass so transparent that people walk across it and see the lake bed dozens of feet below their boots.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Baikal%2C_Cape_Burhan%2C_Olkhon_Island%2C_Lake_Baikal%2C_Russia.jpg/960px-Baikal%2C_Cape_Burhan%2C_Olkhon_Island%2C_Lake_Baikal%2C_Russia.jpg",
+"caption": null,
+"credit": "Vyacheslav Argenberg, CC BY 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Baikal%2C_Cape_Burhan%2C_Olkhon_Island%2C_Lake_Baikal%2C_Russia.jpg",
+"opening": [
+"In February, Lake Baikal in southern Siberia stops looking like a lake. Its surface hardens into ice up to 5 feet (1.5 m) thick, and in many places that ice is nearly flawless: dark, glassy and full of trapped bubbles that hang like frozen coins. Look down through it in early spring and you can sometimes see as far as 130 feet (40 m) into the water, one of the greatest depths of visibility measured in any freshwater lake."
+],
+"rest": [
+"A lake of superlatives",
+"Why the ice is so clear",
+"Ice that cracks and booms",
+"A railroad on the ice"
+]
+},
+{
+"id": "7b258521-4564-4f92-98be-0c1d29b2d74a",
+"slug": "how-hollywood-squeezed-entire-mountain-ranges-into-a-7b258521",
+"date": "2026-11-25",
+"category": "film",
+"label": "Film & TV",
+"headline": "How Hollywood Squeezed Entire Mountain Ranges Into a Soundstage",
+"hook": "The snowy Himalayan peaks of 1947's Black Narcissus were painted on glass and plaster in a studio outside London, and audiences believed every inch of them.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Matterhorn_from_Domh%C3%BCtte_-_2.jpg/960px-Matterhorn_from_Domh%C3%BCtte_-_2.jpg",
+"caption": null,
+"credit": "chil, on Camptocamp.org Derivative work:Zacharie Grossen, CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Matterhorn_from_Domh%C3%BCtte_-_2.jpg",
+"opening": [
+"In 1946, the directing team of Michael Powell and Emeric Pressburger needed a convent perched on a Himalayan cliff. Powell considered shooting in India and decided against it. Instead he built the mountains at Pinewood Studios in Buckinghamshire, England, using painted glass, scaled-down sets and a few tricks of geometry. Black Narcissus won Academy Awards in 1948 for color cinematography and art direction, and generations of viewers have assumed the crew went to Asia.",
+"The method behind it is called forced perspective. It is one of the oldest illusions in filmmaking, and it works because the human eye judges size mostly by context."
+],
+"rest": [
+"The Eye's Blind Spot",
+"Glass, Paint and Patience",
+"Building Distance in Miniature",
+"Why It Beat Location Shooting",
+"The Trick Outlived the Studio System"
+]
+},
+{
+"id": "7653e567-f565-4c92-b3ed-32df34251739",
+"slug": "the-zipper-gets-patented-twice-before-it-finally-works-7653e567",
+"date": "2026-11-25",
+"category": "inventions",
+"label": "Inventions",
+"headline": "The Zipper Gets Patented Twice Before It Finally Works",
+"hook": "Two inventors patented the zipper decades before anyone could make one that stayed shut, and one of them was the man who made the sewing machine practical.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Coil_plastic_and_metal_zippers.jpg/960px-Coil_plastic_and_metal_zippers.jpg",
+"caption": null,
+"credit": "Woodbine9, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Coil_plastic_and_metal_zippers.jpg",
+"opening": [
+"Few objects feel as finished as the zipper. It is cheap, silent and nearly foolproof, and billions are made every year. Yet it took more than 60 years, two patents for designs that never worked well, and one stubborn Swedish engineer before anyone could trust a zipper to stay closed."
+],
+"rest": [
+"Failure One: Elias Howe",
+"Failure Two: The Clasp Locker",
+"The Engineer Who Fixed It",
+"Getting a Name, and a Fly"
+]
+},
+{
+"id": "376e8170-e04a-4b9a-99a8-ffbb4503aa39",
+"slug": "random-dice-rolls-draw-a-perfect-fractal-every-single-time-376e8170",
+"date": "2026-11-25",
+"category": "mathematics",
+"label": "Mathematics",
+"headline": "Random Dice Rolls Draw a Perfect Fractal, Every Single Time",
+"hook": "Roll a die and move halfway to a randomly chosen corner, over and over, and pure chance produces an exact geometric masterpiece that no two runs ever fail to reproduce.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/Barnsley_fern_1024x1024.png/960px-Barnsley_fern_1024x1024.png",
+"caption": null,
+"credit": "Farry, CC0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Barnsley_fern_1024x1024.png",
+"opening": [
+"Start with three dots on a sheet of paper, the corners of a triangle. Put a pencil anywhere inside. Roll a die: on 1 or 2, move halfway toward the first corner; on 3 or 4, halfway toward the second; on 5 or 6, halfway toward the third. Make a dot. Roll again and repeat from the new dot. After a few thousand rolls, the scattered dots don't form a smudge. They form a crisp, infinitely detailed pattern of triangles nested inside triangles.",
+"This is the chaos game, and its result is the Sierpiński triangle, one of the most famous fractals in mathematics. What makes it startling is the mismatch: every individual step is random, yet the final picture is the same every time, down to the smallest visible hole."
+],
+"rest": [
+"A shape older than the game",
+"Why randomness can't ruin it",
+"Tweak the rules, change the world",
+"Compressing nature into a few numbers"
+]
+},
+{
+"id": "863ff7b2-3b8a-4ee0-b11e-aca4ec77d7b0",
+"slug": "synchronized-swimmers-hold-their-breath-upside-down-while-863ff7b2",
+"date": "2026-11-25",
+"category": "sports",
+"label": "Sports & Athletics",
+"headline": "Synchronized Swimmers Hold Their Breath Upside Down While Sprinting",
+"hook": "The popular claim that synchronized swimmers hold their breath for eight minutes is a myth. The real number is far shorter, but they hold it while working as hard as middle-distance runners, upside down, and smiling.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Anita_Alvarez_2008.jpg/960px-Anita_Alvarez_2008.jpg",
+"caption": null,
+"credit": "Rich Whitehead, CC BY 2.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Anita_Alvarez_2008.jpg",
+"opening": [
+"A popular claim says synchronized swimmers hold their breath for eight minutes. They don't. A whole routine lasts only about three to four minutes. Individual underwater sequences typically run 30 seconds to about a minute. What makes those seconds brutal is everything happening during them. The swimmers are inverted, lifting teammates and kicking hard enough to raise their legs high out of a pool at least 10 feet (3 m) deep. They are never allowed to touch the bottom."
+],
+"rest": [
+"Exercise and Apnea at Once",
+"When It Goes Wrong"
+]
+},
 {
 "id": "88a1c2d9-5341-4576-8a6d-efb9c0370798",
 "slug": "stone-age-babies-left-their-mark-on-their-mothers-bones-88a1c2d9",
