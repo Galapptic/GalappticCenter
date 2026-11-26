@@ -1144,9 +1144,177 @@
 "7653e567-f565-4c92-b3ed-32df34251739",
 "376e8170-e04a-4b9a-99a8-ffbb4503aa39",
 "863ff7b2-3b8a-4ee0-b11e-aca4ec77d7b0"
+],
+"2026-11-26": [
+"4cf4c4a9-a949-484f-be23-8de96d6b1478",
+"d4f797e9-866d-43f5-92a4-14cfdc298e20",
+"b7a0ac3b-a630-4270-bdf5-bee4aff882d7",
+"d59aee64-ed53-45aa-b3d7-25d6d4706e0a",
+"a92f22f3-2e33-45e9-9885-f37985a68aa1",
+"db1bcb6f-c331-4461-a8ac-b685a48d27f2",
+"55fc6b23-d40e-4a16-8320-23da6c39ef90"
 ]
 },
 "facts": [
+{
+"id": "4cf4c4a9-a949-484f-be23-8de96d6b1478",
+"slug": "on-venus-the-sun-rises-in-the-west-and-days-outlast-years-4cf4c4a9",
+"date": "2026-11-26",
+"category": "astronomy",
+"label": "Astronomy",
+"headline": "On Venus, the Sun Rises in the West and Days Outlast Years",
+"hook": "Venus takes 243 Earth days to turn once on its axis but only 225 to circle the Sun, and it turns the wrong way.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Venus_from_Mariner_10.jpg/960px-Venus_from_Mariner_10.jpg",
+"caption": null,
+"credit": "NASA/JPL-Caltech, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Venus_from_Mariner_10.jpg",
+"opening": [
+"Venus is the slowest spinner among the planets. One full rotation relative to the distant stars takes about 243 Earth days. A trip around the Sun takes only about 225. By the most basic measure, a Venusian day is longer than a Venusian year."
+],
+"rest": [
+"Spinning the wrong way",
+"Sunrise to sunrise"
+]
+},
+{
+"id": "a92f22f3-2e33-45e9-9885-f37985a68aa1",
+"slug": "a-volcano-a-storm-and-a-dare-gave-birth-to-frankenstein-a92f22f3",
+"date": "2026-11-26",
+"category": "literature",
+"label": "Books & Literature",
+"headline": "A Volcano, a Storm and a Dare Gave Birth to Frankenstein",
+"hook": "The first great science-fiction novel began as a party game, played by a teenager stuck indoors during a summer that never came because a volcano on the far side of the world had darkened the sky.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Christie%27s_auction_scan_of_Frankenstein_1818.jpg/960px-Christie%27s_auction_scan_of_Frankenstein_1818.jpg",
+"caption": null,
+"credit": "Mary Shelley, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Christie%27s_auction_scan_of_Frankenstein_1818.jpg",
+"opening": [
+"In June 1816, an 18-year-old named Mary Godwin sat in a rented villa above Lake Geneva, listening to thunder roll off the Alps. She was not yet married to the poet Percy Bysshe Shelley, though she had run away with him two years earlier. Within days she would begin a story about a scientist who builds a man from corpses. Published in 1818, Frankenstein; or, The Modern Prometheus would outlive nearly everything written by the famous men in the room with her."
+],
+"rest": [
+"The Year Without a Summer",
+"The Party at Villa Diodati",
+"A Waking Dream",
+"Two Monsters From One Contest",
+"A Gothic Novel That Became Something New"
+]
+},
+{
+"id": "d4f797e9-866d-43f5-92a4-14cfdc298e20",
+"slug": "rubbermaid-began-with-toy-balloons-in-ohio-not-clothespins-d4f797e9",
+"date": "2026-11-26",
+"category": "business",
+"label": "Business & Brands",
+"headline": "Rubbermaid Began With Toy Balloons in Ohio, Not Clothespins",
+"hook": "The company that filled American kitchens with plastic tubs started out making rubber toy balloons in a small Ohio town, and the name Rubbermaid came from a New England couple's dustpan.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Wooster_downtown2.jpg/960px-Wooster_downtown2.jpg",
+"caption": null,
+"credit": "Rlboyer, CC0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Wooster_downtown2.jpg",
+"opening": [
+"A popular bit of trivia says Rubbermaid began as a small Ohio company making wooden clothespins and mops. The Ohio part is right. The rest doesn't hold up. The real origin story is stranger and more interesting. It involves party balloons, the Great Depression, and a husband and wife who couldn't stand metal dustpans."
+],
+"rest": [
+"Balloons in Wooster",
+"The dustpan that named a brand",
+"From rubber to plastic"
+]
+},
+{
+"id": "db1bcb6f-c331-4461-a8ac-b685a48d27f2",
+"slug": "a-fossilized-armored-dinosaur-still-shows-the-color-of-its-db1bcb6f",
+"date": "2026-11-26",
+"category": "paleontology",
+"label": "Dinosaurs & Fossils",
+"headline": "A Fossilized Armored Dinosaur Still Shows the Color of Its Skin",
+"hook": "A 110-million-year-old armored dinosaur was preserved so completely that chemists could detect its reddish-brown pigment, and the pattern of that color reveals which predators it feared.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Fort_mcmurray_aerial.jpg/960px-Fort_mcmurray_aerial.jpg",
+"caption": null,
+"credit": "Regional Municipality of Wood Buffalo, CC BY 2.5",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Fort_mcmurray_aerial.jpg",
+"opening": [
+"On March 21, 2011, heavy-equipment operator Shawn Funk was digging through oil sands at the Suncor Millennium Mine, north of Fort McMurray in Alberta, when his excavator hit something harder than the surrounding rock. It turned out to be the front half of an armored dinosaur. The animal had not been reduced to scattered bones. It lay on its back with its scales, bony plates, and spikes still in place, as if it had been laid down to rest.",
+"Paleontologists named it Borealopelta markmitchelli, meaning \"northern shield.\" Its species name honors Mark Mitchell, the technician at the Royal Tyrrell Museum who spent more than 7,000 hours over five and a half years freeing it from the stone. When the full description appeared in the journal Current Biology in 2017, the most striking result was not the dinosaur's shape. It was the evidence of its color."
+],
+"rest": [
+"A dinosaur lost at sea",
+"Reading color from chemistry",
+"Why a tank needed camouflage",
+"Not the only painted dinosaur",
+"What color tells us about the past"
+]
+},
+{
+"id": "b7a0ac3b-a630-4270-bdf5-bee4aff882d7",
+"slug": "on-yap-the-money-stays-put-while-ownership-moves-b7a0ac3b",
+"date": "2026-11-26",
+"category": "economics",
+"label": "Economics",
+"headline": "On Yap, the Money Stays Put While Ownership Moves",
+"hook": "One of the most valuable coins on the Micronesian island of Yap has sat at the bottom of the ocean for over a century, and it still changes hands.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/Ngerukewid-2016-aerial-view-Luka-Peternel.jpg/960px-Ngerukewid-2016-aerial-view-Luka-Peternel.jpg",
+"caption": null,
+"credit": "Luka Peternel, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Ngerukewid-2016-aerial-view-Luka-Peternel.jpg",
+"opening": [
+"On Yap, a cluster of islands in the western Pacific, money can weigh more than a car. The Yapese call their great stone discs rai: wheels of limestone with a hole in the center, ranging from a few inches across to roughly 12 feet (3.6 m) tall. Thousands still stand along village paths and outside meeting houses. Most of them have not moved in generations, even as their owners have changed many times."
+],
+"rest": [
+"Quarried 250 miles away",
+"A ledger kept in people's heads",
+"Modern echoes"
+]
+},
+{
+"id": "d59aee64-ed53-45aa-b3d7-25d6d4706e0a",
+"slug": "the-thief-who-picked-an-empty-pocket-and-still-broke-the-law-d59aee64",
+"date": "2026-11-26",
+"category": "law",
+"label": "Law & Justice",
+"headline": "The Thief Who Picked an Empty Pocket and Still Broke the Law",
+"hook": "In 1892, English judges ruled that a pickpocket could be guilty of attempted theft even when there was nothing to steal, and the question split British courts for nearly a century.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Palace_of_Westminster_as_seen_from_Westminster_Bridge.jpg/960px-Palace_of_Westminster_as_seen_from_Westminster_Bridge.jpg",
+"caption": null,
+"credit": "ThatsTheBoss, CC0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Palace_of_Westminster_as_seen_from_Westminster_Bridge.jpg",
+"opening": [
+"A pickpocket slips his hand into a stranger's pocket and finds it empty. Has he committed a crime? English judges have argued over that question for well over a century, and their answers kept changing."
+],
+"rest": [
+"An empty pocket, two verdicts",
+"A century of back-and-forth"
+]
+},
+{
+"id": "55fc6b23-d40e-4a16-8320-23da6c39ef90",
+"slug": "the-century-long-drip-that-proves-glass-is-not-a-liquid-55fc6b23",
+"date": "2026-11-26",
+"category": "physics",
+"label": "Physics",
+"headline": "The century-long drip that proves glass is not a liquid",
+"hook": "A blob of tar in a Brisbane funnel has let fall only nine drops since 1930, and the slow drip shows how much more stubborn window glass really is.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Brisbane_CBD_seen_from_Kangaroo_Point%2C_2024%2C_01_%282%29.jpg/960px-Brisbane_CBD_seen_from_Kangaroo_Point%2C_2024%2C_01_%282%29.jpg",
+"caption": null,
+"credit": "Chris Olszewski, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Brisbane_CBD_seen_from_Kangaroo_Point%2C_2024%2C_01_%282%29.jpg",
+"opening": [
+"In a glass cabinet at the University of Queensland in Brisbane, Australia, a black blob of tar has been dripping through a funnel since 1930. In more than 90 years it has released nine drops. No human eye has ever watched one fall. The setup is famous, and it often gets tied to a popular claim: that glass is really a liquid flowing too slowly to notice. The tar does flow. The glass does not. The difference between them shows how strange the line between solid and liquid can be."
+],
+"rest": [
+"A professor's lecture-hall stunt",
+"The drops nobody saw",
+"How thick is pitch, really?",
+"So does glass flow too?",
+"Neither solid nor liquid"
+]
+},
 {
 "id": "82bfa04c-2004-4b13-879b-c9c32920e6df",
 "slug": "the-dome-of-the-rock-hides-its-weight-in-plain-sight-82bfa04c",
