@@ -1162,9 +1162,177 @@
 "1315aa28-d588-4624-9056-40b67801bb96",
 "29bea23a-254d-4d34-b30f-2fc03ed819eb",
 "8e7ed56f-fc47-4016-80a9-9e9dc1b993f6"
+],
+"2026-11-28": [
+"dc9836d8-5686-44aa-9761-9cdae497f735",
+"31400bff-b707-4d55-acf7-d11114be51c1",
+"a5fb3eee-1cef-454d-8526-d9912f509395",
+"1937f628-1ce8-466e-95e3-ab60ca32c9bc",
+"8aec5a67-c597-4543-a6b3-5f15624f4935",
+"c53520ae-c7bd-4eba-aa67-c25c99868ea1",
+"522eefbf-6878-4fcc-88ad-e0d1bd4301ad"
 ]
 },
 "facts": [
+{
+"id": "dc9836d8-5686-44aa-9761-9cdae497f735",
+"slug": "kumiko-turns-thin-strips-of-wood-into-light-without-a-dc9836d8",
+"date": "2026-11-28",
+"category": "artsculture",
+"label": "Arts & Culture",
+"headline": "Kumiko Turns Thin Strips of Wood Into Light Without a Single Nail",
+"hook": "Some kumiko panels contain thousands of hand-cut wooden pieces, each fitted to within a fraction of a millimeter and held by friction alone, no nails and no glue.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Kumiko.jpg/960px-Kumiko.jpg",
+"caption": null,
+"credit": "Sergei Sarin, CC BY-SA 4.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Kumiko.jpg",
+"opening": [
+"Look closely at the screen in a traditional Japanese room and you may find a geometric bloom of hemp leaves, interlocking hexagons or tiny stars, all made from slivers of wood thinner than a pencil. This is kumiko, a joinery craft in which strips of wood are notched, planed and pressed together so tightly that the pattern holds itself. There is no nail, no screw and often no glue. Friction and geometry do the work."
+],
+"rest": [
+"A Craft Born in the Asuka Period",
+"How the Pieces Lock",
+"Patterns Made for Light",
+"A Living Tradition"
+]
+},
+{
+"id": "31400bff-b707-4d55-acf7-d11114be51c1",
+"slug": "the-submarine-that-crossed-the-top-of-the-world-blind-31400bff",
+"date": "2026-11-28",
+"category": "exploration",
+"label": "Explorers & Expeditions",
+"headline": "The Submarine That Crossed the Top of the World Blind",
+"hook": "In 1958, 116 men crossed the North Pole hundreds of feet beneath solid ice, steering by a navigation system borrowed from a missile, because no compass works there.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5b/William_anderson.jpeg/960px-William_anderson.jpeg",
+"caption": null,
+"credit": "U.S. Congress, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:William_anderson.jpeg",
+"opening": [
+"The submarine was American, not Soviet. USS Nautilus, the world's first nuclear-powered submarine, slipped under the Arctic ice near Point Barrow, Alaska, on August 1, 1958. At 11:15 p.m. Eastern time on August 3, it passed directly beneath the North Pole. Commander William R. Anderson radioed home a three-word message: \"Nautilus 90 North.\""
+],
+"rest": [
+"Steering where compasses fail",
+"A Cold War answer to Sputnik"
+]
+},
+{
+"id": "a5fb3eee-1cef-454d-8526-d9912f509395",
+"slug": "an-18-inch-puppet-becomes-the-biggest-monster-in-movie-a5fb3eee",
+"date": "2026-11-28",
+"category": "film",
+"label": "Film & TV",
+"headline": "An 18-Inch Puppet Becomes the Biggest Monster in Movie History",
+"hook": "The 50-foot ape who climbed the Empire State Building was a jointed metal skeleton about the height of a house cat, nudged into motion one frame at a time.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Empire_State_Building_%28aerial_view%29.jpg/960px-Empire_State_Building_%28aerial_view%29.jpg",
+"caption": null,
+"credit": "Sam Valadi, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Empire_State_Building_%28aerial_view%29.jpg",
+"opening": [
+"When King Kong opened at Radio City Music Hall and the RKO Roxy in New York on March 2, 1933, audiences saw a giant gorilla battle dinosaurs, rampage through Manhattan and swat biplanes from the top of the world's tallest building. Most of what they saw was a puppet about 18 inches (46 cm) tall. Every movement had been made by hand, a fraction of an inch at a time, over more than a year of painstaking work."
+],
+"rest": [
+"The man behind the monster",
+"Skeleton, muscle and skin",
+"Why one Kong was never enough",
+"Stitching puppets into reality",
+"A Depression-era gamble that paid off"
+]
+},
+{
+"id": "1937f628-1ce8-466e-95e3-ab60ca32c9bc",
+"slug": "how-japans-courts-learned-to-treat-noise-as-a-real-injury-1937f628",
+"date": "2026-11-28",
+"category": "law",
+"label": "Law & Justice",
+"headline": "How Japan's Courts Learned to Treat Noise as a Real Injury",
+"hook": "The ferry ruling is hard to trace in the record, but the 1990s case that did change how Japan treats noise came from a highway.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Amagasaki_City_Hall.JPG/960px-Amagasaki_City_Hall.JPG",
+"caption": null,
+"credit": "KishujiRapid, CC0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Amagasaki_City_Hall.JPG",
+"opening": [
+"The story is often told about a ferry and its noise, but published records of that case are hard to find. The best-documented turning point in 1990s Japan came from traffic noise along a highway. On July 7, 1995, Japan's Supreme Court ruled on National Route 43, a highway running through Amagasaki, Nishinomiya and Kobe. The road carried a stream of trucks with the Hanshin Expressway stacked above it."
+],
+"rest": [
+"A road on trial",
+"The tolerance limit"
+]
+},
+{
+"id": "8aec5a67-c597-4543-a6b3-5f15624f4935",
+"slug": "every-time-you-see-the-sun-you-see-its-past-8aec5a67",
+"date": "2026-11-28",
+"category": "physics",
+"label": "Physics",
+"headline": "Every Time You See the Sun, You See Its Past",
+"hook": "If the Sun vanished this instant, it would keep shining in your sky, and keep holding Earth in orbit, for another 8 minutes and 20 seconds.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Full_cycle_of_a_Sunset_on_the_high_plains_of_the_Mojave_Desert.jpg/960px-Full_cycle_of_a_Sunset_on_the_high_plains_of_the_Mojave_Desert.jpg",
+"caption": null,
+"credit": "Jessie Eastland, CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Full_cycle_of_a_Sunset_on_the_high_plains_of_the_Mojave_Desert.jpg",
+"opening": [
+"Sunlight is old news. The Sun sits about 93 million miles (150 million km) away, and light, the fastest thing there is, crosses that gap at 186,282 miles (299,792 km) per second. Do the division and you get roughly 499 seconds, a little over 8 minutes and 19 seconds. The glowing disk you see at sunset is not the Sun as it is but the Sun as it was when that light set out."
+],
+"rest": [
+"Measuring the delay",
+"Older than it looks",
+"A sky full of history"
+]
+},
+{
+"id": "c53520ae-c7bd-4eba-aa67-c25c99868ea1",
+"slug": "your-brain-paints-over-a-hole-in-your-vision-every-second-c53520ae",
+"date": "2026-11-28",
+"category": "psychology",
+"label": "Psychology",
+"headline": "Your Brain Paints Over a Hole in Your Vision Every Second",
+"hook": "Each of your eyes has a patch of total blindness about the size of 15 full moons, and your brain quietly forges the missing picture so you never see the hole.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Human_eye_with_blood_vessels.jpg/960px-Human_eye_with_blood_vessels.jpg",
+"caption": null,
+"credit": "ROTFLOLEB, CC BY-SA 3.0",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Human_eye_with_blood_vessels.jpg",
+"opening": [
+"Every eye you have ever looked through has a hole in it. About 15 degrees off-center from where you are looking, toward your temple, sits a region where you detect nothing at all. It covers roughly 5 by 7 degrees of your visual field. At arm's length that is a patch about the size of an orange, and in the night sky it could hide 15 full moons side by side. Yet you have never seen it, because your brain covers it up."
+],
+"rest": [
+"A design flaw in the wiring",
+"Discovered at the French court",
+"Making it up",
+"Find yours"
+]
+},
+{
+"id": "522eefbf-6878-4fcc-88ad-e0d1bd4301ad",
+"slug": "when-londons-police-pulled-their-way-to-olympic-gold-522eefbf",
+"date": "2026-11-28",
+"category": "sports",
+"label": "Sports & Athletics",
+"headline": "When London's Police Pulled Their Way to Olympic Gold",
+"hook": "At the 1908 Olympics, a team of London police officers won gold in tug-of-war, the Americans quit in protest over their boots, and British police teams took all three medals.",
+"image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Le_White_City_Stadium_de_Londres%2C_pour_les_JO_de_1908.jpg/960px-Le_White_City_Stadium_de_Londres%2C_pour_les_JO_de_1908.jpg",
+"caption": null,
+"credit": "Unknown authorUnknown author, Public domain",
+"cover": true,
+"credit_url": "https://commons.wikimedia.org/wiki/File:Le_White_City_Stadium_de_Londres%2C_pour_les_JO_de_1908.jpg",
+"opening": [
+"You may have heard that the 1908 Olympic tug-of-war was won by London policemen so heavy and strong that people started calling them the City of London Police. The story is better than that, though the nickname part is a mix-up. City of London Police was not a nickname. It was their actual employer, the force that patrols London's square-mile financial district. Eight of its officers really did win Olympic gold on July 18, 1908. How they won, and the fight that came before, is the interesting part."
+],
+"rest": [
+"A sport for the Olympics",
+"The battle of the boots",
+"Why boots and weight matter",
+"The final pull",
+"A dynasty, briefly",
+"The force behind the team"
+]
+},
 {
 "id": "f8c81f6e-0ff6-4630-8431-fc0f8d2bbd83",
 "slug": "every-movie-youve-seen-was-half-darkness-f8c81f6e",
